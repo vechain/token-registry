@@ -1,0 +1,32 @@
+{
+  "name": "token-registry",
+  "version": "1.0.0",
+  "description": "vechain tokens",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js all",
+    "build:main": "node index.js main",
+    "build:test": "node index.js test",
+    "clean": "node index.js clean",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsbertMa/token-registry.git"
+  },
+  "keywords": [
+    "vechain",
+    "token",
+    "transfer"
+  ],
+  "author": "Asbert Ma <stayinalive@msn.cn>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AsbertMa/token-registry/issues"
+  },
+  "homepage": "https://github.com/AsbertMa/token-registry#readme",
+  "dependencies": {
+    "file-system": "2.2.2",
+    "hash-file": "3.0.0"
+  }
+}
