@@ -45,7 +45,7 @@ function packToken(net) {
 
   const folder = path.join(__dirname, `./tokens/${NET_FOLDERS[net]}`)
   const infos = getTokensInfo(folder)
-  const result = []
+  let result = []
   const listJson = infos.map(item => {
     return {
       ...item,
@@ -65,12 +65,15 @@ function packToken(net) {
       icon: item.imgName
     })
   })
+
+  console.table(result, ['name', 'symbol', 'decimals', 'address'])
+  
   file.writeFileSync(
     path.join(__dirname, `./dist/${net}.json`),
     JSON.stringify(result, null, 2)
   )
-
   console.timeEnd(greenFont(`build-${net}-tokens`))
+
 }
 
 function rename(img) {
