@@ -4,11 +4,13 @@
   "description": "vechain tokens",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js all",
-    "build:main": "node index.js main",
-    "build:test": "node index.js test",
+    "build": "node index.js -b all",
+    "build:main": "node index.js -b main",
+    "build:test": "node index.js -b test",
     "clean": "node index.js clean",
-    "test": ""
+    "lint": "node index.js -l all",
+    "lint:main": "node index.js -l main",
+    "lint:test": "node index.js -l test"
   },
   "repository": {
     "type": "git",

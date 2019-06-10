@@ -3,23 +3,9 @@ const fs = require('fs')
 const path = require('path')
 const hashName = require('hash-file')
 const { exec } = require('child_process')
+const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 
-redFont = str => {
-  return `\x1b[31m${str}\x1b[0m`
-}
-
-greenFont = str => {
-  return `\x1b[32m${str}\x1b[0m`
-}
-
-yellowFont = str => {
-  return `\x1b[33m${str}\x1b[0m`
-}
-
-const NET_FOLDERS = {
-  main: 'main.net',
-  test: 'test.net'
-}
+const NET_FOLDERS = require('./const').NETS
 
 const DIST = path.join(__dirname, './dist')
 const ASSETS = path.join(DIST, 'assets')
@@ -96,20 +82,13 @@ function rename(img) {
 async function getTokensInfo(folder) {
   const tokens = getTokens(folder)
   const result = []
-  const temp = tokens.filter(item => {
-    return !item.startsWith('.')
-  })
 
-  for (let i = 0; i < temp.length; i++) {
-    const item = temp[i]
+  for (let i = 0; i < tokens.length; i++) {
+    const item = tokens[i]
     result.push(await tokenInfo(path.join(folder, item)))
   }
 
   return result
-}
-
-function getTokens(folder) {
-  return file.readdirSync(folder)
 }
 
 async function tokenInfo(tokenPath) {
