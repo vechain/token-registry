@@ -1,4 +1,6 @@
+const file = require('file-system')
 module.exports = {
+
   getTokens: function(folder) {
     const tokens = file.readdirSync(folder)
     const temp = tokens.filter(item => {

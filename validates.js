@@ -8,7 +8,7 @@ function checkFolderName(folderName) {
     throw new Error('folder name should be low case')
   }
 
-  if (/^0x[a-f0-9]{40}$/.test(folderName)) {
+  if (!/^0x[a-f0-9]{40}$/.test(folderName)) {
     throw new Error('folder name should be a valid address with low case')
   }
 }
@@ -50,7 +50,7 @@ function checkAddress(folderName, address) {
 
 function checkImg(path) {
   // const img = require(path)
-  console.log('todo')
+  console.log('todo img')
 }
 
 function validate(net, folder) {
