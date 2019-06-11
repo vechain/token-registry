@@ -1,5 +1,6 @@
 const path = require('path')
 const file = require('file-system')
+const sharp = require('sharp')
 const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 const NET_FOLDERS = require('./const').NETS
 
@@ -48,37 +49,51 @@ function checkAddress(folderName, address) {
   )
 }
 
-function checkImg(path) {
-  // const img = require(path)
-  console.log('todo img')
+async function checkImg(path) {
+  const info = await sharp(path).metadata()
+  if (info.width !== 512 || info.height !== 512) {
+    throw new Error('image should be 512px * 512px')
+  }
 }
 
-function validate(net, folder) {
-  checkFolderName(folder)
+async function validate(net, folder) {
   const tokenFolder = path.join(
     __dirname,
     `./tokens/${NET_FOLDERS[net]}/${folder}`
   )
-  const files = file.readdirSync(tokenFolder)
-  if (files.length !== 2) {
-    // invalid
-  }
   const info = require(path.join(tokenFolder, 'info.json'))
-  if (!checkAddress(folder, info.address)) {
-    throw new Error('address should be a valid address with low case')
+  try {
+    checkFolderName(folder)
+    const files = file.readdirSync(tokenFolder)
+    if (files.includes('info.json') && files.includes('token.png')) {
+      throw new Error('missing info.json or token.png')
+    }
+    if (!checkAddress(folder, info.address)) {
+      throw new Error('address should be a valid address with low case')
+    }
+    checkInfo(info)
+    await checkImg(path.join(tokenFolder, 'token.png'))
+  } catch (error) {
+    throw new Error(`token: ${info.name}\npath: ${tokenFolder}\nmessage: "${error.message}"`)
   }
-  checkInfo(info)
-  checkImg(path.join(tokenFolder, 'token.png'))
 }
 
 module.exports = {
-  lint: function(net) {
+  lint: async function(net) {
     const tokens = getTokens(
       path.join(__dirname, `./tokens/${NET_FOLDERS[net]}`)
     )
+    try {
+      for (let i = 0; i < tokens.length; i++) {
+        const item = tokens[i]
+        await validate(net, item)
+      }
+    } catch (error) {
+      console.error(redFont(error.message))
+    }
 
-    tokens.forEach(item => {
-      validate(net, item)
-    })
+    // tokens.forEach(item => {
+    //   validate(net, item)
+    // })
   }
 }
