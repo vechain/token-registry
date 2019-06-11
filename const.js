@@ -1,6 +1,6 @@
 const NET_FOLDERS = {
-  main: 'main.net',
-  test: 'test.net'
+  main: 'main',
+  test: 'test'
 }
 
 module.exports = {
