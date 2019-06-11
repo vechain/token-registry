@@ -5,23 +5,23 @@ const NET_FOLDERS = require('./const').NETS
 
 function checkFolderName(folderName) {
   if (folderName.toLowerCase() !== folderName) {
-    // invalid
+    throw new Error('folder name should be low case')
   }
 
   if (/^0x[a-f0-9]{40}$/.test(folderName)) {
-    // invalid
+    throw new Error('folder name should be a valid address with low case')
   }
 }
 
 function checkInfo(info) {
   if (!checkName(info.name)) {
-    console.log('name')
+    throw new Error('name should be string')
   }
   if (!checkSymbol(info.symbol)) {
-    console.log('symbol')
+    throw new Error('symbol should be string')
   }
   if (!checkDecimals(info.decimals)) {
-    console.log('decimals')
+    throw new Error('decimals should be number')
   }
 }
 
@@ -34,7 +34,11 @@ function checkSymbol(symbol) {
 }
 
 function checkDecimals(decimals) {
-  return !(decimals === null || decimals === undefined)
+  return !(
+    decimals === null ||
+    decimals === undefined ||
+    typeof decimals !== 'number'
+  )
 }
 
 function checkAddress(folderName, address) {
@@ -60,7 +64,9 @@ function validate(net, folder) {
     // invalid
   }
   const info = require(path.join(tokenFolder, 'info.json'))
-  checkAddress(folder, info.address)
+  if (!checkAddress(folder, info.address)) {
+    throw new Error('address should be a valid address with low case')
+  }
   checkInfo(info)
   checkImg(path.join(tokenFolder, 'token.png'))
 }
