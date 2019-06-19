@@ -1,13 +1,13 @@
 # VeChain Token-registry - Submit Form
 
-Token-registry is a place where you can request the tokens list which is submitted. The list includes the token name, symbol, description, image and contract address in Mainnet or Testnet. If you wish your token on the list, you can create a pull request to submit token.
+Token-registry is a platform where you can submit the token. Token-registry will provide a list to application includes the token name, symbol, description, image and contract address in Mainnet or Testnet. If you wish your token on the list, you can create a pull request to submit token.
 
 ## Requirements 
 1. Make sure the contract address is correct (main/test)
-1. Token image is required
-1. Folder name must be the same as the contract address 
-1. Clear and simple description 
-1. Comply with directory & contents rules
+2. Token image is required
+3. Folder name must be the same as the contract address 
+4. Clear and simple description 
+5. Comply with directory & contents rules
 
 ## Getting Ready for Submission
 ### Fork Token-registry
@@ -24,9 +24,10 @@ Forking a repository allows you to create your token details and send a pull req
 │       └── info.json
 ```
 
-2. Import your token image into the directory and named it `token`.(image must be `png` format and `256 x 256` pixel size)
 
-3. Generate a info.json file includes token details.
+1. Import your token image into the directory and named it `token`.(image must be `png` format and `256 x 256` pixel size)
+
+2. Generate a info.json file includes token details.
 
 
 ```
