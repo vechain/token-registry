@@ -9,23 +9,25 @@ async function buildAll() {
   await build('test')
 }
 
-function lintAll() {
-  lint('main')
-  lint('test')
+async function lintAll() {
+  await lint('main')
+  await lint('test')
 }
 
 async function execFun(net) {
   if (action === '-l') {
     if (net === 'all') {
-      lintAll()
+      await lintAll()
     } else {
-      lint(net)
+      await lint(net)
     }
   } else if (action === '-b') {
     if (net === 'all') {
+      await lintAll()
       await buildAll()
     } else {
       clean()
+      await lint(net)
       await build(net)
     }
   }
