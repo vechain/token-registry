@@ -51,8 +51,8 @@ function checkAddress(folderName, address) {
 
 async function checkImg(path) {
   const info = await sharp(path).metadata()
-  if (info.width !== 512 || info.height !== 512) {
-    throw new Error('image should be 512px * 512px')
+  if (info.width !== 256 || info.height !== 256) {
+    throw new Error('image should be 256px * 256px')
   }
 }
 
@@ -65,7 +65,7 @@ async function validate(net, folder) {
   try {
     checkFolderName(folder)
     const files = file.readdirSync(tokenFolder)
-    if (files.includes('info.json') && files.includes('token.png')) {
+    if (!files.includes('info.json') || !files.includes('token.png')) {
       throw new Error('missing info.json or token.png')
     }
     if (!checkAddress(folder, info.address)) {
@@ -90,10 +90,7 @@ module.exports = {
       }
     } catch (error) {
       console.error(redFont(error.message))
+      throw new Error(error)
     }
-
-    // tokens.forEach(item => {
-    //   validate(net, item)
-    // })
   }
 }
