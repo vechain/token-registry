@@ -4,9 +4,9 @@
   "description": "vechain tokens",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && npm run lint && node index.js -b all",
-    "build:main": "npm run clean && npm run lint:main && node index.js -b main",
-    "build:test": "npm run clean && npm run lint:test && node index.js -b test",
+    "build": "npm run clean && node index.js -b all",
+    "build:main": "npm run clean && node index.js -b main",
+    "build:test": "npm run clean && node index.js -b test",
     "clean": "node index.js clean",
     "lint": "node index.js -l all",
     "lint:main": "node index.js -l main",
