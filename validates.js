@@ -24,6 +24,9 @@ function checkInfo(info) {
   if (!checkDecimals(info.decimals)) {
     throw new Error('decimals should be number')
   }
+  if (!checkDesc(info.desc)) {
+    throw new Error('desc should be string')
+  }
 }
 
 function checkName(name) {
@@ -32,6 +35,10 @@ function checkName(name) {
 
 function checkSymbol(symbol) {
   return !(symbol === null || symbol === undefined || symbol.length === 0)
+}
+
+function checkDesc(desc) {
+  return !(desc === null || desc === undefined || desc.length === 0)
 }
 
 function checkDecimals(decimals) {
