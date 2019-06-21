@@ -56,6 +56,7 @@ async function packToken(net) {
       symbol: item.symbol,
       decimals: item.decimals,
       address: item.address,
+      desc: item.desc,
       icon: item.imgName
     })
   })
