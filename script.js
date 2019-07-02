@@ -86,6 +86,7 @@ async function getTokensInfo(folder) {
 
   for (let i = 0; i < tokens.length; i++) {
     const item = tokens[i]
+    item.address = folder.toLowerCase()
     result.push(await tokenInfo(path.join(folder, item)))
   }
 

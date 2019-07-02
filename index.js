@@ -1,5 +1,6 @@
 const { clean, build } = require('./script')
 const { lint } = require('./validates')
+const { redFont } = require('./utils')
 const action = process.argv[2]
 const net = process.argv[3]
 
@@ -51,6 +52,7 @@ async function start() {
   }
 }
 
-start().catch(() => {
+start().catch((error) => {
+  console.error(redFont(error.message))
   process.exit(1)
 })
