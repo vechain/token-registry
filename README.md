@@ -15,7 +15,7 @@ Forking a repository allows you to create your token details and send a pull req
 ### Generate Token Information
 1. Create a directory in [main](tokens/main) or [test](tokens/test) and named the directory with **Contract address**.
 
-> Contract address start with 0x + 40 characters,E.g., `0x0000000000000000000000000000456e65726779`.
+> Contract address start with **0x + 40 characters and must be lower case**, E.g., `0x0000000000000000000000000000456e65726779`.
 
 ```
 ├── main 
@@ -35,8 +35,7 @@ Forking a repository allows you to create your token details and send a pull req
         "name": "VeThor",
         "symbol": "VTHO",
         "decimals":18,
-        "desc": "Represents the underlying cost of using VeChainThor",
-        "address": "0x0000000000000000000000000000456e65726779"
+        "desc": "Represents the underlying cost of using VeChainThor"
     }
 ```
     
