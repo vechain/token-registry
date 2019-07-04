@@ -2,6 +2,5 @@
   "name": "VeThor",
   "symbol": "VTHO",
   "decimals": 18,
-  "desc": "Represents the underlying cost of using VeChainThor",
-  "address": "0x0000000000000000000000000000456e65726779"
+  "desc": "Represents the underlying cost of using VeChainThor"
 }
