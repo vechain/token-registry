@@ -83,22 +83,21 @@ function rename(img) {
 async function getTokensInfo(folder) {
   const tokens = getTokens(folder)
   const result = []
-
   for (let i = 0; i < tokens.length; i++) {
     const item = tokens[i]
-    item.address = folder.toLowerCase()
-    result.push(await tokenInfo(path.join(folder, item)))
+    result.push(await tokenInfo(path.join(folder, item), item.toLowerCase()))
   }
 
   return result
 }
 
-async function tokenInfo(tokenPath) {
+async function tokenInfo(tokenPath, address) {
   const file = path.join(tokenPath, 'info.json')
   const img = path.join(tokenPath, 'token.png')
   const info = require(file)
   info.img = img
   info.createTime = await getCreateTimeFromGit(tokenPath)
+  info.address = address
   return info
 }
 
