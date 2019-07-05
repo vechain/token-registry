@@ -1,0 +1,6 @@
+{
+  "name": "Tic",
+  "symbol": "TIC",
+  "decimals": 18,
+  "desc": "Represents the underlying cost of using Tic"
+}
