@@ -1,0 +1,6 @@
+{
+  "name": "VeThor",
+  "symbol": "VTHO",
+  "decimals": 18,
+  "desc": "Represents the underlying cost of using VeChainThor"
+}
