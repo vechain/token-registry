@@ -25,9 +25,9 @@ Forking a repository allows you to create your token details and send a pull req
 ```
 
 
-1. Import your token image into the directory and named it `token`.(image must be `png` format and `256 x 256` pixel size)
+2. Import your token image into the directory and named it `token`.**(Image must be `png` format, `transparent background`and `256 x 256` pixel size)**
 
-2. Generate a info.json file includes token details.
+3. Generate a info.json file includes token details.
 
 
 ```
