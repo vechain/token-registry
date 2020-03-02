@@ -111,14 +111,14 @@ async function tokenInfo(tokenPath, address) {
 
 async function getExtraInfo(filePath) {
   const keys = ['website', 'whitePaper']
-  const socialMedia = 'socialMedia'
-  const socials = ['twitter', 'telegram', 'facebook', 'medium', 'github', 'slack']
+  const LinkSymbol = 'links'
+  const linkNames = ['twitter', 'telegram', 'facebook', 'medium', 'github', 'slack']
 
   const extraInfo = require(filePath)
-  const medias = extraInfo[socialMedia]
-  const mediasKeys = medias ? Object.keys(medias) : null
+  const links = extraInfo[LinkSymbol]
+  const linkKeys = links ? Object.keys(links) : null
   let result = {}
-  let mediaTemp = []
+  let linksTemp = []
 
   keys.forEach(item => {
     if (!extraInfo[item]) {
@@ -126,18 +126,18 @@ async function getExtraInfo(filePath) {
     }
     result[item] = extraInfo[item]
   })
-  if (mediasKeys && mediasKeys.length) {
-    mediasKeys.forEach(item => {
-      if (socials.includes(item) && medias[item] && /^(https?:\/\/)/.test(medias[item])) {
-        mediaTemp.push({
-          [item]: medias[item]
+  if (linkKeys && linkKeys.length) {
+    linkKeys.forEach(item => {
+      if (linkNames.includes(item) && links[item] && /^(https?:\/\/)/.test(links[item])) {
+        linksTemp.push({
+          [item]: links[item]
         })
       }
     })
   }
 
-  if (mediaTemp.length) {
-    result[socialMedia] = mediaTemp
+  if (linksTemp.length) {
+    result[LinkSymbol] = linksTemp
   }
 
   return result
