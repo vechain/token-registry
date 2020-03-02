@@ -15,7 +15,7 @@ function checkInfo(info) {
     throw new Error('name should be string')
   }
   if (!checkSymbol(info.symbol)) {
-    throw new Error('symbol should be string and upper case')
+    throw new Error('symbol should be string')
   }
   if (!checkDecimals(info.decimals)) {
     throw new Error('decimals should be integer')
