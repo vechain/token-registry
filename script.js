@@ -57,7 +57,8 @@ async function packToken(net) {
       decimals: item.decimals,
       address: item.address,
       desc: item.desc,
-      icon: item.imgName
+      icon: item.imgName,
+      ...item.extra
     })
   })
 
@@ -92,14 +93,56 @@ async function getTokensInfo(folder) {
 }
 
 async function tokenInfo(tokenPath, address) {
-  const file = path.join(tokenPath, 'info.json')
+  const files = file.readdirSync(tokenPath)
+  const infoFile = path.join(tokenPath, 'info.json')
   const img = path.join(tokenPath, 'token.png')
-  const info = require(file)
+  const info = require(infoFile)
+  let extraInfo = null
+  if (files.includes('additional.json')) {
+    extraInfo = await getExtraInfo(path.join(tokenPath, 'additional.json'))
+  }
   info.img = img
   info.createTime = await getCreateTimeFromGit(tokenPath)
   info.address = address
+  info.extra = extraInfo
+
   return info
 }
+
+async function getExtraInfo(filePath) {
+  const keys = ['website', 'whitePaper']
+  const socialMedia = 'socialMedia'
+  const socials = ['twitter', 'telegram', 'facebook', 'medium', 'github', 'slack']
+
+  const extraInfo = require(filePath)
+  const medias = extraInfo[socialMedia]
+  const mediasKeys = medias ? Object.keys(medias) : null
+  let result = {}
+  let mediaTemp = []
+
+  keys.forEach(item => {
+    if (!extraInfo[item]) {
+      return
+    }
+    result[item] = extraInfo[item]
+  })
+  if (mediasKeys && mediasKeys.length) {
+    mediasKeys.forEach(item => {
+      if (socials.includes(item) && medias[item] && /^(https?:\/\/)/.test(medias[item])) {
+        mediaTemp.push({
+          [item]: medias[item]
+        })
+      }
+    })
+  }
+
+  if (mediaTemp.length) {
+    result[socialMedia] = mediaTemp
+  }
+
+  return result
+}
+
 
 async function getCreateTimeFromGit(dirPath) {
   const command =
