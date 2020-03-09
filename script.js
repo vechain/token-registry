@@ -99,7 +99,7 @@ async function tokenInfo(tokenPath, address) {
   const info = require(infoFile)
   let extraInfo = null
   if (files.includes('additional.json')) {
-    extraInfo = await getExtraInfo(path.join(tokenPath, 'additional.json'))
+    extraInfo = getExtraInfo(path.join(tokenPath, 'additional.json'))
   }
   info.img = img
   info.createTime = await getCreateTimeFromGit(tokenPath)
@@ -109,7 +109,8 @@ async function tokenInfo(tokenPath, address) {
   return info
 }
 
-async function getExtraInfo(filePath) {
+function getExtraInfo(filePath) {
+  const urlRegExp = /(https):\/\/[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|]/
   const keys = ['website', 'whitePaper']
   const LinkSymbol = 'links'
   const linkNames = ['twitter', 'telegram', 'facebook', 'medium', 'github', 'slack']
@@ -124,14 +125,22 @@ async function getExtraInfo(filePath) {
     if (!extraInfo[item]) {
       return
     }
+    if (!urlRegExp.test(extraInfo[item])) {
+      console.warn(yellowFont(`The ${item} link invalid`))
+      return
+    }
     result[item] = extraInfo[item]
   })
   if (linkKeys && linkKeys.length) {
     linkKeys.forEach(item => {
-      if (linkNames.includes(item) && links[item] && /^(https?:\/\/)/.test(links[item])) {
-        linksTemp.push({
-          [item]: links[item]
-        })
+      if (linkNames.includes(item) && links[item]) {
+        if (urlRegExp.test(links[item])) {
+          linksTemp.push({
+            [item]: links[item]
+          })
+        } else {
+          console.warn(yellowFont(`The ${item} link invalid`))
+        }
       }
     })
   }
