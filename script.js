@@ -1,11 +1,13 @@
+const axios = require('axios')
 const file = require('file-system')
 const fs = require('fs')
 const path = require('path')
 const hashName = require('hash-file')
 const { exec } = require('child_process')
+const BN = require('bignumber.js')
 const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 
-const NET_FOLDERS = require('./const').NETS
+const { NETS: NET_FOLDERS, NODES } = require('./const')
 
 const DIST = path.join(__dirname, './dist')
 const ASSETS = path.join(DIST, 'assets')
@@ -49,7 +51,7 @@ async function packToken(net) {
 
   file.mkdirSync(ASSETS)
 
-  listJson.forEach(item => {
+  for (const item of listJson) {
     file.copyFileSync(item.img, path.join(ASSETS, `${item.imgName}`))
     result.push({
       name: item.name,
@@ -58,9 +60,10 @@ async function packToken(net) {
       address: item.address,
       desc: item.desc,
       icon: item.imgName,
+      totalSupply: item.symbol === 'VTHO' ? 'Infinite' : await getTotalSupply(NODES[net], item.address),
       ...item.extra
     })
-  })
+  }
 
   console.table(listJson, [
     'name',
@@ -167,6 +170,25 @@ async function getCreateTimeFromGit(dirPath) {
       return resolve(new Date(stdout))
     })
   })
+}
+
+async function getTotalSupply(url, address) {
+  try {
+    const resp = await axios.post(`${url}/accounts/*`, {
+      clauses: [
+        {
+          to: address,
+          value: '0',
+          data: '0x18160ddd'
+        }
+      ]
+    })
+    const value = resp.data[0]['data']
+
+    return new BN(value).toString(10)
+  } catch (error) {
+    throw error
+  }
 }
 
 module.exports = {
