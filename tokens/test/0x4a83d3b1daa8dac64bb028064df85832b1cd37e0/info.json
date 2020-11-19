@@ -1,1 +1,6 @@
-
+ {
+        "name": "Madini",
+        "symbol": "MDN",
+        "decimals":8,
+        "desc": "MDN is the Madini VeChain Vip180 token that is used to carry value or 'smart money' from Madini smart contracts. In other words, transactions on decentralized applications occurring on Madini VeChain's blockchain will use MDN. It is available for investing by the general public. MDN token is the Madini utility token in our Ecosystem since it is linked to the Madini Minerals Marketplace, to the Madini VeChain Wallet - Android APP - and other Madini VeChain dApps."
+    }
