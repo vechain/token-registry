@@ -1,8 +1,9 @@
 const path = require('path')
+const axios = require('axios')
 const file = require('file-system')
 const sharp = require('sharp')
 const { getTokens } = require('./utils')
-const NET_FOLDERS = require('./const').NETS
+const { NETS: NET_FOLDERS, NODES } = require('./const')
 
 function checkFolderName(folderName) {
   if (!/^0x[a-f0-9]{40}$/.test(folderName)) {
@@ -22,6 +23,14 @@ function checkInfo(info) {
   }
   if (!checkDesc(info.desc)) {
     throw new Error('desc should be string')
+  }
+}
+
+async function checkAddressHasCode(net, address) {
+
+  const resp = await axios.get(`${NODES[net]}/accounts/${address}`)
+  if (!resp.data.hasCode) {
+    throw new Error('invalid contract address')
   }
 }
 
@@ -52,19 +61,19 @@ async function checkImg(path) {
   }
 }
 
-async function validate(net, folder) {
+async function validate(net, address) {
   const tokenFolder = path.join(
     __dirname,
-    `./tokens/${NET_FOLDERS[net]}/${folder}`
+    `./tokens/${NET_FOLDERS[net]}/${address}`
   )
   const info = require(path.join(tokenFolder, 'info.json'))
   try {
-    checkFolderName(folder)
+    checkFolderName(address)
     const files = file.readdirSync(tokenFolder)
     if (!files.includes('info.json') || !files.includes('token.png')) {
       throw new Error('missing info.json or token.png')
     }
-
+    await checkAddressHasCode(net, address)
     checkInfo(info)
 
     await checkImg(path.join(tokenFolder, 'token.png'))
@@ -76,7 +85,7 @@ async function validate(net, folder) {
 }
 
 module.exports = {
-  lint: async function(net) {
+  lint: async function (net) {
     const tokens = getTokens(
       path.join(__dirname, `./tokens/${NET_FOLDERS[net]}`)
     )
