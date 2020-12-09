@@ -1,12 +1,7 @@
 {
   "website":"https://www.madiniafricainvest.com/", 
   "links":{
-      "twitter":"#",      
-      "telegram":"#",
-      "facebook":"#",
-      "medium":"#",
-      "github":"https://github.com/Bluegate-BS",
-      "slack":"#"
+      "github":"https://github.com/Bluegate-BS"
     },
   "whitePaper":"https://www.madiniafricainvest.com/whitepaper/MadiniWhitepaper112020.pdf"
 }
