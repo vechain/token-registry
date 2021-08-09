@@ -1,0 +1,43 @@
+name: Build and Deploy to GH page
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  BuildAndDeploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '10'
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+
+      - name: Install Dependencies
+        run: npm ci
+  
+      - name: Build Website
+        run: npm run build
+
+      - name: Deploy To GH Pages
+        if: github.ref == 'refs/heads/master'
+
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/
+          force_orphan: true
