@@ -1,0 +1,6 @@
+ {
+        "name": "SG",
+        "symbol": "Subhash Coins",
+        "decimals":18,
+        "desc": "Represents the underlying cost of using VeChainThor"
+    }
