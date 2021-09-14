@@ -1,0 +1,13 @@
+{
+  "website":"https://www.example.com/", 
+  "links":{
+      "twitter":"https://twitter.com/example",      
+      "telegram":"https://t.me/example",
+      "facebook":"https://www.facebook.com",
+      "medium":"https://medium.com/@example",
+      "github":"https://github.com/example",
+      "slack":"https://example.slack.com/"
+    },
+  "whitePaper":"https://www.example.com/whitepaper/"
+}
+
