@@ -61,3 +61,13 @@ Forking a repository allows you to create your token details and send a pull req
 
 ### Making a Pull Request / Submit Your token
 After [Create a pull request](https://help.github.com/en/articles/creating-a-pull-request), your pull request will be reviewed by maintainers. Once the review is completed, your token will be merged into the base branch.
+
+## Get Approved token list
+
+1. Get tokens information
+
+`https://vechain.github.io/token-registry/{main/test}.json`
+
+2. Get token icon
+
+`https://vechain.github.io/token-registry/assets/{item.icon}`
