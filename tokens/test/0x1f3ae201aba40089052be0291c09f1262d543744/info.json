@@ -1,0 +1,6 @@
+{
+    "name": "ABCC Token",
+    "symbol": "ABCD",
+    "decimals":6,
+    "desc": "Represents the token need to interact with ABCD platform"
+}
