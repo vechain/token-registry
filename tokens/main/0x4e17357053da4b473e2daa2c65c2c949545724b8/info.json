@@ -1,0 +1,6 @@
+{
+    "name": "VeUSD",
+    "symbol": "VEUSD",
+    "decimals":6,
+    "desc": "VeChain’s first native stablecoin"
+}
