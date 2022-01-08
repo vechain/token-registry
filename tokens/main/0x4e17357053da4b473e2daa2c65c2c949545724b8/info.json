@@ -2,5 +2,5 @@
     "name": "VeUSD",
     "symbol": "VEUSD",
     "decimals":6,
-    "desc": "VeChain’s first native stablecoin"
+    "desc": "US Dollar-pegged stablecoin fully backed 1-to-1 and redeemable for USD held in a trust account managed by Prime Trust and powered by Stably"
 }
