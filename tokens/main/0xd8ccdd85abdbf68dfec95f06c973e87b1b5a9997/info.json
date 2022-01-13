@@ -1,0 +1,6 @@
+{
+  "name": "Wrapped VET",
+  "symbol": "WVET",
+  "decimals": 18,
+  "desc": "Wrapped VET for VIP180 compatibility"
+}
