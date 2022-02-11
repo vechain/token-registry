@@ -1,0 +1,6 @@
+{
+    "name": "Veiled VET",
+    "symbol": "VVET",
+    "decimals": 18,
+    "desc": "Wrapper VET VIP-180 token (VIP-180) that 1:1 pegs VET. Audit report provided by PeckShield."
+}
