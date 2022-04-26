@@ -1,1 +1,6 @@
-init
+{
+    "name": "Paper Burn Token",
+    "symbol": "PBT",
+    "decimals":6,
+    "desc": "tbd"
+}
