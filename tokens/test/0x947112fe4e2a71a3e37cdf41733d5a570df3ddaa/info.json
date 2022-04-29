@@ -1,0 +1,6 @@
+{
+    "name": "Paper Token",
+    "symbol": "PPR",
+    "decimals":18,
+    "desc": "Utility token for the NFT Paper Project to interact with burning smart contracts"
+}
