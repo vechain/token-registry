@@ -1,5 +1,5 @@
 {
-    "name": "VeSea Token",
+    "name": "VeSea",
     "symbol": "VSEA",
     "decimals":18,
     "desc": "Tokens powering VeSea's NFT Utility Ecosystem, designed to be destroyed by VeSea-deployed smartcontracts that give usage to VIP-181 tokens"
