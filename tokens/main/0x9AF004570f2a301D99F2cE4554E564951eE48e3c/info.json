@@ -1,6 +1,6 @@
-    {
-        "name": "SHTcoin",
-        "symbol": "SHT",
-        "decimals":18,
-        "desc": "meh"
-    }
+{
+    "name": "SHTcoin",
+    "symbol": "SHT",
+    "decimals": 18,
+    "desc": "meh"
+}
