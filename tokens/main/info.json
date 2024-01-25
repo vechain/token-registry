@@ -1,6 +1,0 @@
-    {
-        "name": "MyBike",
-        "symbol": "BIKE",
-        "decimals":18,
-        "desc": "Represents the underlying cost of using MyBike"
-    }
