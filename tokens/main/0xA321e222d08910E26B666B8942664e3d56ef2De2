@@ -1,0 +1,5 @@
+├── main 
+│   └── 0xA321e222d08910E26B666B8942664e3d56ef2De2 //Contract address
+│       ├── token.png
+│       ├── info.json
+│       └── additional.json
