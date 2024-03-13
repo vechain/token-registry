@@ -1,11 +1,8 @@
 {
-    "website":"https://www.worldofv.art/", 
+    "website":"https://digitalizator.pl", 
     "links":{
         "twitter":"https://twitter.com/WorldOfV2",      
-        "telegram":"https://t.me/worldofvofficial",
-        "medium":"https://medium.com/@WorldofV",
-        "github":""
-      },
+        },
     "whitePaper":"https://medium.com/@WorldofV/world-of-v-tokenomics-the-beginning-of-our-journey-together-d428907c22af"
   }
   
