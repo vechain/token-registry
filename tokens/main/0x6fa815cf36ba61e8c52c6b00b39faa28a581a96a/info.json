@@ -1,1 +1,6 @@
-
+{
+        "name": "ZONK",
+        "symbol": "ZONK",
+        "decimals":12,
+        "desc": "MemeCoin build on VeChain Platform"
+    }
