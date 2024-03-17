@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/AsbertMa/token-registry#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^1.6.8",
     "bignumber.js": "^9.0.0",
     "file-system": "2.2.2",
     "hash-file": "3.0.0",
