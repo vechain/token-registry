@@ -1,0 +1,6 @@
+{
+    "name": "wrappedUSDC",
+    "symbol": "wUSDC",
+    "decimals": 18,
+    "desc": "Wrapped version of USDC managed by bridge.vet"
+}
