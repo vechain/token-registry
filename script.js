@@ -9,6 +9,8 @@ const { abi } = require('thor-devkit')
 const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 
 const { NETS: NET_FOLDERS, NODES } = require('./const')
+const abis = require('./abis')
+const { verifyContract } = require('./contract')
 
 const DIST = path.join(__dirname, './dist')
 const ASSETS = path.join(DIST, 'assets')
@@ -53,6 +55,8 @@ async function packToken(net) {
   file.mkdirSync(ASSETS)
 
   for (const item of listJson) {
+    await verifyContract(item.address, NODES[net])
+
     file.copyFileSync(item.img, path.join(ASSETS, `${item.imgName}`))
     result.push({
       name: item.name,
@@ -172,20 +176,7 @@ async function getCreateTimeFromGit(dirPath) {
     })
   })
 }
-const TSabi = {
-  "constant": true,
-  "inputs": [],
-  "name": "totalSupply",
-  "outputs": [
-    {
-      "name": "",
-      "type": "uint256"
-    }
-  ],
-  "payable": false,
-  "stateMutability": "view",
-  "type": "function"
-}
+
 async function getTotalSupply(url, address) {
   const resp = await axios.post(`${url}/accounts/*`, {
     clauses: [
@@ -196,7 +187,7 @@ async function getTotalSupply(url, address) {
       }
     ]
   })
-  let tsf = new abi.Function(TSabi)
+  let tsf = new abi.Function(abis.totalSupply)
   const decoded = tsf.decode(resp.data[0]['data'])
 
   return decoded[0]
