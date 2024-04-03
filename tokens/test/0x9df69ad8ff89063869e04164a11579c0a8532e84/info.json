@@ -1,6 +1,3 @@
 {
-    "name": "VOT3",
-    "symbol": "VOT3",
-    "decimals": 18,
-    "desc": "Tokens representing voting power in the VeBetterDAO"
+  "desc": "Tokens representing voting power in the VeBetterDAO"
 }

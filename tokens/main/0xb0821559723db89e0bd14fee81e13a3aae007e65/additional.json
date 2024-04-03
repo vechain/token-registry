@@ -1,9 +1,9 @@
 {
-  "website":"https://vpunks.com/", 
-  "links":{
-    "twitter":"https://twitter.com/vpunksofficial",      
-    "telegram":"https://t.me/vpunks",
-    "github":"https://github.com/vefam-labs/vpunks",
-    "slack":""
+  "website": "https://vpunks.com/",
+  "links": {
+    "twitter": "https://twitter.com/vpunksofficial",
+    "telegram": "https://t.me/vpunks",
+    "github": "https://github.com/vefam-labs/vpunks",
+    "slack": ""
   }
 }

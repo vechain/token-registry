@@ -1,6 +1,3 @@
 {
-    "name": "B3TR",
-    "symbol": "B3TR",
-    "decimals": 18,
-    "desc": "The official utility token in the VeBetterDAO"
+  "desc": "The official utility token in the VeBetterDAO"
 }

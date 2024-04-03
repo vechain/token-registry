@@ -10,7 +10,7 @@ const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 
 const { NETS: NET_FOLDERS, NODES } = require('./const')
 const abis = require('./abis')
-const { verifyContract } = require('./contract')
+const { verifyContract, getContractDetails } = require('./contract')
 
 const DIST = path.join(__dirname, './dist')
 const ASSETS = path.join(DIST, 'assets')
@@ -54,18 +54,32 @@ async function packToken(net) {
 
   file.mkdirSync(ASSETS)
 
-  for (const item of listJson) {
+  for (let i = 0; i < listJson.length; i++) {
+
+    const item = listJson[i]
+
+    const {
+      name,
+      symbol,
+      decimals,
+      totalSupply
+    } = await getContractDetails(item.address, NODES[net])
+
+    listJson[i].decimals = decimals
+    listJson[i].name = name
+    listJson[i].symbol = symbol
+
     await verifyContract(item.address, NODES[net])
 
     file.copyFileSync(item.img, path.join(ASSETS, `${item.imgName}`))
     result.push({
-      name: item.name,
-      symbol: item.symbol,
-      decimals: item.decimals,
+      name,
+      symbol,
+      decimals,
       address: item.address,
       desc: item.desc,
       icon: item.imgName,
-      totalSupply: item.symbol === 'VTHO' ? 'Infinite' : await getTotalSupply(NODES[net], item.address),
+      totalSupply: item.symbol === 'VTHO' ? 'Infinite' : totalSupply,
       ...item.extra
     })
   }
@@ -175,22 +189,6 @@ async function getCreateTimeFromGit(dirPath) {
       return resolve(new Date(stdout))
     })
   })
-}
-
-async function getTotalSupply(url, address) {
-  const resp = await axios.post(`${url}/accounts/*`, {
-    clauses: [
-      {
-        to: address,
-        value: '0',
-        data: '0x18160ddd'
-      }
-    ]
-  })
-  let tsf = new abi.Function(abis.totalSupply)
-  const decoded = tsf.decode(resp.data[0]['data'])
-
-  return decoded[0]
 }
 
 module.exports = {
