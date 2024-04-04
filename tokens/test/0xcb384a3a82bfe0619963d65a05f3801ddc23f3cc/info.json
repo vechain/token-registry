@@ -1,3 +1,6 @@
 {
-  "desc": "VeChains finest Meme Coin, Powering Turtle Labs a DeFi Platform."
-}
+    "name": "Squirtle Squad",
+    "symbol": "SQUAD",
+    "decimals": 18,
+    "desc": "VeChains finest Meme Coin, Powering Turtle Labs a DeFi Platform."
+  }

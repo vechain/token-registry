@@ -1,3 +1,6 @@
 {
-  "desc": "VPU is the ecosystem utility and governance token of VPunks NFT & VPunks marketplace"
+    "name": "VPunks Token",
+    "symbol": "VPU",
+    "decimals":18,
+    "desc": "VPU is the ecosystem utility and governance token of VPunks NFT & VPunks marketplace"
 }

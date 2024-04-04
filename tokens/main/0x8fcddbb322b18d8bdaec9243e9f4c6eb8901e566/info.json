@@ -1,3 +1,6 @@
 {
+  "name": "ThreeDAbleToken",
+  "symbol": "3DT",
+  "decimals": 18,
   "desc": "Utility token for 3DAbles platform"
 }

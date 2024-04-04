@@ -1,3 +1,6 @@
 {
-  "desc": "A crypto asset that belongs to all young people around the world."
+	"name": "SneakerCoin",
+	"symbol": "SNK",
+	"decimals":18,
+	"desc": "A crypto asset that belongs to all young people around the world."
 }

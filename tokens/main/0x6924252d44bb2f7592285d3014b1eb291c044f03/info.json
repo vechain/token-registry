@@ -1,1 +1,6 @@
-{ "desc": "Official dog of vechain" }
+    {
+        "name": "VienerDog",
+        "symbol": "VDOG",
+        "decimals":9,
+        "desc": "Official dog of vechain"
+    }

@@ -1,3 +1,6 @@
 {
+  "name": "VFoxToken",
+  "symbol": "VFA",
+  "decimals": 18,
   "desc": "Utility token of the VFox Alliance ecosystem"
 }

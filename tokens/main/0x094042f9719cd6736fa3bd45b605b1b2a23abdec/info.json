@@ -1,3 +1,6 @@
 {
+  "name": "Vyvo US Dollar",
+  "symbol": "USDV",
+  "decimals": 6,
   "desc": "A fiat-backed stablecoin redeemable 1-to-1 for U.S Dollar held in trust accounts."
 }

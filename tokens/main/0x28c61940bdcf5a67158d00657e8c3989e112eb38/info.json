@@ -1,3 +1,6 @@
 {
-  "desc": "The governance token of the Mad Viking Games platform and marketplace"
+        "name": "GEMS",
+        "symbol": "GEMS",
+        "decimals":18,
+        "desc": "The governance token of the Mad Viking Games platform and marketplace"
 }

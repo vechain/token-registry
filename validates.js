@@ -12,6 +12,15 @@ function checkFolderName(folderName) {
 }
 
 function checkInfo(info) {
+  if (!checkName(info.name)) {
+    throw new Error('name should be string')
+  }
+  if (!checkSymbol(info.symbol)) {
+    throw new Error('symbol should be string')
+  }
+  if (!checkDecimals(info.decimals)) {
+    throw new Error('decimals should be integer')
+  }
   if (!checkDesc(info.desc)) {
     throw new Error('desc should be string')
   }
@@ -70,7 +79,7 @@ async function validate(net, address) {
     await checkImg(path.join(tokenFolder, 'token.png'))
   } catch (error) {
     throw new Error(
-      `token: ${address}\npath: ${tokenFolder}\nmessage: "${error.message}"`
+      `token: ${info.name}\npath: ${tokenFolder}\nmessage: "${error.message}"`
     )
   }
 }

@@ -1,3 +1,6 @@
 {
-  "desc": "Utility token for the 8Hours Platform"
+    "name": "Eight Hours Token",
+    "symbol": "EHrT",
+    "decimals": 18,
+    "desc": "Utility token for the 8Hours Platform"
 }

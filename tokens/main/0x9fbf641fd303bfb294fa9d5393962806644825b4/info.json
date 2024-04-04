@@ -1,3 +1,6 @@
 {
-  "desc": "The Galactic Credit is the main currency of the ExoWorlds metaverse. Whether buying, upgrading, forging or enchanting, users will need GCRED if they want to unlock the full potential of ExoWorlds."
+	"name": "GCRED Token",
+	"symbol": "GCRED",
+	"decimals":18,
+	"desc": "The Galactic Credit is the main currency of the ExoWorlds metaverse. Whether buying, upgrading, forging or enchanting, users will need GCRED if they want to unlock the full potential of ExoWorlds."
 }

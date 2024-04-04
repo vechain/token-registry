@@ -1,3 +1,6 @@
 {
-  "desc": "The Utility Token of the Llama Digital Studios Ecosystem, the Gold Rush has started!"
+    "name": "GOLD Coin",
+    "symbol": "GOLD",
+    "decimals": 18,
+    "desc": "The Utility Token of the Llama Digital Studios Ecosystem, the Gold Rush has started!"
 }

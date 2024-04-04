@@ -1,3 +1,6 @@
 {
-  "desc": "WoV is the ecosystem utility and governance token of WorldOfV."
+    "name": "WorldOfV",
+    "symbol": "WoV",
+    "decimals": 18,
+    "desc": "WoV is the ecosystem utility and governance token of WorldOfV."
 }

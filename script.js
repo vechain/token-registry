@@ -65,9 +65,12 @@ async function packToken(net) {
       totalSupply
     } = await getContractDetails(item.address, NODES[net])
 
-    listJson[i].decimals = decimals
-    listJson[i].name = name
-    listJson[i].symbol = symbol
+    if (name !== item.name) 
+      throw new Error(`name does not match contract name (info=${item.name}, contract=${name})`)
+    if (symbol !== item.symbol) 
+      throw new Error(`symbol does not match contract symbol (info=${item.symbol}, contract=${symbol})`)
+    if (decimals !== item.decimals) 
+      throw new Error(`decimals does not match contract decimals (info=${item.decimals}, contract=${decimals})`)
 
     await verifyContract(item.address, NODES[net])
 

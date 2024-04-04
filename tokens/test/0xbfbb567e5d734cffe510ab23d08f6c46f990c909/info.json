@@ -1,3 +1,6 @@
 {
-  "desc": "Utility token of the GOATZ NFT project"
+	"name": "MILK",
+	"symbol": "MILK",
+	"decimals":18,
+	"desc": "Utility token of the GOATZ NFT project"
 }

@@ -1,3 +1,6 @@
 {
+  "name": "Vexchange",
+  "symbol": "VEX",
+  "decimals": 18,
   "desc": "Governance Token for the Vexchange Ecosystem"
 }

@@ -1,3 +1,6 @@
 {
-  "desc": "TestViracoins will be the test currency in Viracles city."
+	"name": "TestViracoins",
+	"symbol": "TVIRC",
+	"decimals": 18,
+	"desc": "TestViracoins will be the test currency in Viracles city."
 }

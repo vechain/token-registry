@@ -1,3 +1,6 @@
 {
-  "desc": "$LION is a meme token that symbolises strength, courage, and justice in the world of crypto currency"
-}
+     "name": "LION",
+     "symbol": "LION",
+     "decimals": 18,
+     "desc": "$LION is a meme token that symbolises strength, courage, and justice in the world of crypto currency"
+ }

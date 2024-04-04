@@ -1,1 +1,6 @@
-{ "desc": "Represents the VeChain PEPE meme token" }
+    {
+        "name": "PEPE",
+        "symbol": "PEPE",
+        "decimals":18,
+        "desc": "Represents the VeChain PEPE meme token"
+    }

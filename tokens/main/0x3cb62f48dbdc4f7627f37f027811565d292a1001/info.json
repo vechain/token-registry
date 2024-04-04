@@ -1,1 +1,6 @@
-{ "desc": "Rain is a rain.vet token." }
+  {
+        "name": "Rainbow",
+        "symbol": "Rain",
+        "decimals":18,
+        "desc": "Rain is a rain.vet token."
+    }

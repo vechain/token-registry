@@ -1,3 +1,6 @@
 {
-  "desc": "1 token for a cup of coffee from Sunny"
+    "name": "FreeCoffeeWithSunny",
+    "symbol": "FCWS",
+    "decimals": 0,
+    "desc": "1 token for a cup of coffee from Sunny"
 }
