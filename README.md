@@ -33,6 +33,9 @@ Forking a repository allows you to create your token details and send a pull req
 
 ```
     {
+        "name": "VeThor",	
+        "symbol": "VTHO",	
+        "decimals":18,
         "desc": "Represents the underlying cost of using VeChainThor"
     }
 ```
