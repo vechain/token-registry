@@ -9,6 +9,8 @@ const { abi } = require('thor-devkit')
 const { getTokens, redFont, greenFont, yellowFont } = require('./utils')
 
 const { NETS: NET_FOLDERS, NODES } = require('./const')
+const abis = require('./abis')
+const { verifyContract, getContractDetails } = require('./contract')
 
 const DIST = path.join(__dirname, './dist')
 const ASSETS = path.join(DIST, 'assets')
@@ -52,16 +54,34 @@ async function packToken(net) {
 
   file.mkdirSync(ASSETS)
 
-  for (const item of listJson) {
+  for (let i = 0; i < listJson.length; i++) {
+    const item = listJson[i]
+
+    const {
+      name,
+      symbol,
+      decimals,
+      totalSupply
+    } = await getContractDetails(item.address, NODES[net])
+
+    if (name !== item.name) 
+      throw new Error(`name does not match contract name (info=${item.name}, contract=${name})`)
+    if (symbol !== item.symbol) 
+      throw new Error(`symbol does not match contract symbol (info=${item.symbol}, contract=${symbol})`)
+    if (decimals !== item.decimals) 
+      throw new Error(`decimals does not match contract decimals (info=${item.decimals}, contract=${decimals})`)
+
+    await verifyContract(item.address, NODES[net])
+
     file.copyFileSync(item.img, path.join(ASSETS, `${item.imgName}`))
     result.push({
-      name: item.name,
-      symbol: item.symbol,
-      decimals: item.decimals,
+      name,
+      symbol,
+      decimals,
       address: item.address,
       desc: item.desc,
       icon: item.imgName,
-      totalSupply: item.symbol === 'VTHO' ? 'Infinite' : await getTotalSupply(NODES[net], item.address),
+      totalSupply: item.symbol === 'VTHO' ? 'Infinite' : totalSupply,
       ...item.extra
     })
   }
@@ -171,35 +191,6 @@ async function getCreateTimeFromGit(dirPath) {
       return resolve(new Date(stdout))
     })
   })
-}
-const TSabi = {
-  "constant": true,
-  "inputs": [],
-  "name": "totalSupply",
-  "outputs": [
-    {
-      "name": "",
-      "type": "uint256"
-    }
-  ],
-  "payable": false,
-  "stateMutability": "view",
-  "type": "function"
-}
-async function getTotalSupply(url, address) {
-  const resp = await axios.post(`${url}/accounts/*`, {
-    clauses: [
-      {
-        to: address,
-        value: '0',
-        data: '0x18160ddd'
-      }
-    ]
-  })
-  let tsf = new abi.Function(TSabi)
-  const decoded = tsf.decode(resp.data[0]['data'])
-
-  return decoded[0]
 }
 
 module.exports = {
