@@ -16,8 +16,6 @@ const verifyCalls = [
     "0x435933c8064b4Ae76bE665428e0307eF2cCFBD68",
   ),
 ];
-
-
 const verifyContract = async (address, url) => {
   try {
     const clauses = verifyCalls.map((data) => ({
