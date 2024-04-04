@@ -55,7 +55,6 @@ async function packToken(net) {
   file.mkdirSync(ASSETS)
 
   for (let i = 0; i < listJson.length; i++) {
-
     const item = listJson[i]
 
     const {
