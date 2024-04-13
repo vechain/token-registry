@@ -1,0 +1,12 @@
+{
+  "website":"https://www.twitter.com/yothatscooldeux", 
+  "links":{
+      "twitter":"https://twitter.com/yothatscooldeux",      
+      "telegram":"https://t.me/example",
+      "facebook":"https://www.facebook.com",
+      "medium":"https://medium.com/@example",
+      "github":"https://github.com/example",
+      "slack":"https://example.slack.com/"
+    },
+  "whitePaper":"https://www.example.com/whitepaper/"
+}
