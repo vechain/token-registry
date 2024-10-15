@@ -1,0 +1,6 @@
+{
+  "name": "CarbonYears",
+  "symbol": "CY",
+  "decimals": 18,
+  "desc": "Represents 1 ton of CO2 offset for 1 year. Non-tradable and non-transferable. Each token is linked to an offset certificate and can only be minted by the Pause Your Carbon smart contract."
+}
