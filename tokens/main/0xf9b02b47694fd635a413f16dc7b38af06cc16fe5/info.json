@@ -1,0 +1,6 @@
+    {
+        "name": "Better VET",
+        "symbol": "BVET",
+        "decimals":18,
+        "desc": "Wrapper VET VIP-180 token (VIP-180) that 1:1 pegs VET"
+    }
