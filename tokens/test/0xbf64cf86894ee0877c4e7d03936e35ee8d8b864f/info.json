@@ -1,0 +1,6 @@
+{
+  "name": "B3TR_DEV",
+  "symbol": "B3TR",
+  "decimals": 18,
+  "desc": "The testnet B3TR token used for testing purposes by developers"
+}
