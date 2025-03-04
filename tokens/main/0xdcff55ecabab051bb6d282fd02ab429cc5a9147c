@@ -1,0 +1,11 @@
+├── main 
+│   └── 0xdcff55ecabab051bb6d282fd02ab429cc5a9147c //Contract address
+│       ├── token.png
+│       ├── info.json
+    {
+        "name": "Sigma Boy",
+        "symbol": "SIGB",
+        "decimals":50,
+        "desc": "Represents the Vechain SIGB meme token"
+    }
+│       └── additional.json
