@@ -1,0 +1,10 @@
+├── main 
+│   └── 0xba13942db52613176c5166d28b63d186be63c728 //Contract address
+│       ├── token.png
+│       ├── info.json
+  {
+        "name": "Low Taper Fade",
+        "symbol": "LTF",
+        "decimals":50,
+        "desc": "Represents the Vechain LTF token"
+    }
