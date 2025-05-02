@@ -1,0 +1,6 @@
+{
+  "name": "ETH@vechain",
+  "symbol": "ETH",
+  "decimals": 18,
+  "desc": "The testnet ETH token used for testing cross chain by developers"
+}
