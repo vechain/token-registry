@@ -1,0 +1,7 @@
+{
+    "name": "SOL@vechain",
+    "symbol": "SOL",
+    "decimals": 9,
+    "desc": "Bridged SOL from Wanchain at https://bridge.wanchain.org/AssetBridge."
+  }
+  

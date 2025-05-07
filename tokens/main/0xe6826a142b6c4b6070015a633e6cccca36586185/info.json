@@ -1,0 +1,7 @@
+{
+    "name": "XRP@vechain",
+    "symbol": "XRP",
+    "decimals": 6,
+    "desc": "Bridged XRP from Wanchain at https://bridge.wanchain.org/AssetBridge."
+  }
+  
