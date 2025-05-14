@@ -1,0 +1,7 @@
+{
+    "name": "USDC@vechain",
+    "symbol": "USDC",
+    "decimals": 6,
+    "desc": "Bridged USDC from Wanchain at https://bridge.wanchain.org/AssetBridge."
+  }
+  

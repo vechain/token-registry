@@ -1,0 +1,7 @@
+{
+    "name": "BTC@vechain",
+    "symbol": "BTC",
+    "decimals": 8,
+    "desc": "Bridged BTC from Wanchain at https://bridge.wanchain.org/AssetBridge."
+  }
+  
