@@ -1,0 +1,6 @@
+{
+  "name": "ETH@vechain",
+  "symbol": "ETH",
+  "decimals": 18,
+  "desc": "Bridged ETH from Wanchain at https://bridge.wanchain.org/AssetBridge."
+}
