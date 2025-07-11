@@ -1,0 +1,16 @@
+{
+  "website": "https://ecotrade.life", 
+  "links": {
+    "twitter": "",
+    "telegram": "",
+    "medium": "",
+    "github": "",
+    "facebook": "",
+    "slack": ""
+  },
+  "whitePaper": "https://ecotrade.life/whitepaper.pdf", 
+  "crossChainProvider": {
+    "name": "native",
+    "url": "https://native.org/bridge" 
+  }
+}
