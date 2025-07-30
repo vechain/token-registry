@@ -1,0 +1,6 @@
+{
+    "name": "Juicy Vechain ETH",
+    "symbol": "jVechainETH",
+    "decimals": 18,
+    "desc": "Juicy Finance Receipt Token representing your deposited assets in JuicyFinance, providing proof of your supplied liquidity and accruing interest in real-time."
+}
