@@ -1,0 +1,6 @@
+{
+  "crossChainProvider": {
+    "name": "wanchain",
+    "url": "https://bridge.wanchain.org/AssetBridge"
+  }
+}
