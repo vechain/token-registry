@@ -1,9 +1,10 @@
 {
   "website":"https://www.vechain.org/", 
   "links":{
-      "twitter":"https://twitter.com/vechaindev",      
+      "twitter":"https://x.com/vechainofficial",      
       "medium":"https://medium.com/@vechainofficial",
-      "github":"https://github.com/vechain"
+      "github":"https://github.com/vechain",
+      "telegram":"https://t.me/vechainandfriends"
     },
   "whitePaper":"https://www.vechain.org/whitepaper/"
 }
