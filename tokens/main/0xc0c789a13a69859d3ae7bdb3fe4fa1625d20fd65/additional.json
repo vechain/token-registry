@@ -1,4 +1,10 @@
 {
+  "website":"https://bridge.wanchain.org/AssetBridge",
+  "links":{
+    "twitter":"https://x.com/wanchain_org",      
+    "telegram":"https://t.me/WanchainCHAT"
+  },
+
   "crossChainProvider": {
     "name": "wanchain",
     "url": "https://bridge.wanchain.org/AssetBridge"
