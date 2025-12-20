@@ -1,0 +1,10 @@
+{
+  "name": "Aidede",
+  "symbol": "AID",
+  "type": "VIP-180",
+  "address": "0x3432911b69836e8567a2a768d34434940c761685",
+  "decimals": 18,
+  "website": "https://aidede.app",
+  "description": "Aidede is a cultural audio storytelling platform token used for in-app rewards and NFT collectibles.",
+  "explorer": "https://explore.vechain.org/accounts/0x3432911b69836e8567a2a768d34434940c761685"
+}
