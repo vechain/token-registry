@@ -1,0 +1,6 @@
+{
+  "name": "RootToken",
+  "symbol": "RT",
+  "decimals":18,
+  "desc": "Root token on testnet"
+}
