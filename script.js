@@ -7,10 +7,11 @@ const { exec } = require("child_process");
 const BN = require("bignumber.js");
 const { abi } = require("thor-devkit");
 const { getTokens, redFont, greenFont, yellowFont } = require("./utils");
-const { z } = require("zod");
+const { z, ZodError } = require("zod");
 const { NETS: NET_FOLDERS, NODES, additionalSchema } = require("./const");
 const abis = require("./abis");
 const { verifyContract, getContractDetails } = require("./contract");
+const { InvalidAdditionalSchemaError } = require("./error");
 
 const DIST = path.join(__dirname, "./dist");
 const ASSETS = path.join(DIST, "assets");
@@ -120,6 +121,7 @@ async function getTokensInfo(folder) {
   return result;
 }
 
+
 async function tokenInfo(tokenPath, address) {
   const files = file.readdirSync(tokenPath);
   const infoFile = path.join(tokenPath, "info.json");
@@ -127,9 +129,17 @@ async function tokenInfo(tokenPath, address) {
   const info = require(infoFile);
   let extraInfo = null;
   if (files.includes("additional.json")) {
-    extraInfo = additionalSchema.parse(
-      require(path.join(tokenPath, "additional.json"))
+    const additionalPath = path.join(tokenPath, "additional.json")
+    try {
+      extraInfo = additionalSchema.parse(
+      require(additionalPath)
     );
+    } catch(error) {
+      if (error instanceof ZodError) {
+        throw new InvalidAdditionalSchemaError({ tokenPath: additionalPath, error })
+      }
+      throw error
+    }
   }
   info.img = img;
   info.createTime = await getCreateTimeFromGit(tokenPath);

@@ -12,7 +12,7 @@ const NODES = {
 const additionalSchema = z.object({
   website: z.string().url().optional(),
   whitePaper: z.string().url().optional(),
-  link: z
+  links: z
     .object({
       twitter: z.string().url().optional(),
       telegram: z.string().url().optional(),
