@@ -1,0 +1,1027 @@
+[
+  {
+    "name": "VeThor",
+    "symbol": "VTHO",
+    "decimals": 18,
+    "address": "0x0000000000000000000000000000456e65726779",
+    "desc": "VTHO is the energy or “gas” token of the VeChainThor blockchain, used to pay for transactions, smart contracts and other types of network activity. It enables predictable and stable transaction costs, a key feature of VeChain’s dual-token system.\n\nVTHO is generated through the staking of VET and is distributed as rewards to validators and delegators who help secure the network. The VeChainThor blockchain employs a dynamic gas fee mechanism, where 100% of the VTHO used in transactions as the base fee is burned, balancing supply and demand to maintain sustainable network economics.",
+    "icon": "f6815de4f571ad395cac066e10a4d3b21e8770a9.png",
+    "totalSupply": "Infinite",
+    "website": "https://www.vechain.org/",
+    "whitePaper": "https://www.vechain.org/whitepaper/",
+    "links": {
+      "twitter": "https://x.com/vechainofficial",
+      "telegram": "https://t.me/vechainandfriends",
+      "medium": "https://medium.com/@vechainofficial",
+      "github": "https://github.com/vechain"
+    }
+  },
+  {
+    "name": "Plair",
+    "symbol": "PLA",
+    "decimals": 18,
+    "address": "0x89827f7bb951fd8a56f8ef13c5bfee38522f2e1f",
+    "desc": "Plair is a decentralized gaming ecosystem disrupting the amateur gaming market",
+    "icon": "dfe7a792d85cfd1483b03228fd1d51a383a3c7b5.png",
+    "totalSupply": "100000000000000000000000000000"
+  },
+  {
+    "name": "Safe Haven Token",
+    "symbol": "SHA",
+    "decimals": 18,
+    "address": "0x5db3c8a942333f6468176a870db36eef120a34dc",
+    "desc": "Asset Management & Inheritance Solutions",
+    "icon": "735a5e4a70116463649aa9c508b5d18361f10ab7.png",
+    "totalSupply": "8500000000000000000000000000"
+  },
+  {
+    "name": "Eight Hours Token",
+    "symbol": "EHrT",
+    "decimals": 18,
+    "address": "0xf8e1faa0367298b55f57ed17f7a2ff3f5f1d1628",
+    "desc": "Utility token for the 8Hours Platform",
+    "icon": "aa05eb7852852116d54f3ad32d856353584710e2.png",
+    "totalSupply": "9985672952000000000000000000"
+  },
+  {
+    "name": "Decent.bet Token",
+    "symbol": "DBET",
+    "decimals": 18,
+    "address": "0x1b8ec6c2a45cca481da6f243df0d7a5744afc1f8",
+    "desc": "DECENT.bet is an open-source p2p gaming platform built on the VeChain blockchain",
+    "icon": "39cb9bcb279706b3ae09a8cc633bfca500cef5a3.png",
+    "totalSupply": "205903294831970956466297922"
+  },
+  {
+    "name": "TicTalk Token",
+    "symbol": "TIC",
+    "decimals": 18,
+    "address": "0xa94a33f776073423e163088a5078feac31373990",
+    "desc": "TicTalk Foundation is an innovative platform for blockchain incubation with lean incubation as its kernel.",
+    "icon": "45f12bc57fb24290af9d4c7b662e84b801c9d22d.png",
+    "totalSupply": "10000000000000000000000000000"
+  },
+  {
+    "name": "OceanEx Token",
+    "symbol": "OCE",
+    "decimals": 18,
+    "address": "0x0ce6661b4ba86a0ea7ca2bd86a0de87b0b860f14",
+    "desc": "OceanEx Token (OCE) is OceanEx's platform token",
+    "icon": "6fcdaf9e2663a21aecc7518f78ec6d1b2ebfd1ed.png",
+    "totalSupply": "10000000000000000000000000000"
+  },
+  {
+    "name": "SneakerCoin",
+    "symbol": "SNK",
+    "decimals": 18,
+    "address": "0x540768b909782c430cc321192e6c2322f77494ec",
+    "desc": "SneakerCoin, a crypto asset that belongs to all young people around the world.Every sneaker owner should obtain SneakerCoin.Its main employments are toward both corporate and consumer sectors of Swell Group - S-cope Bass and mine APP; building an eco-system and community on Street Culture, with physical asset onchain, e-commerce, valuable content creation incentives.SneakerCoin Foundation dedicates to promote the development of crypto economic community in street culture industry.",
+    "icon": "e352c4d1e1343614b49d7f711075c7c8aec53b08.png",
+    "totalSupply": "2000000000000000000000000000"
+  },
+  {
+    "name": "JUR",
+    "symbol": "JUR",
+    "decimals": 18,
+    "address": "0x46209d5e5a49c1d403f4ee3a0a88c3a27e29e58d",
+    "desc": "JUR Token is the token of justice. Access a decentralized legal ecosystem for professionals and enterprises.",
+    "icon": "56e4bd509c299b4724f6dfc58237bd57ad7e1b58.png",
+    "totalSupply": "1000000000000000000000000000"
+  },
+  {
+    "name": "Aqua Diamond Token",
+    "symbol": "AQD",
+    "decimals": 18,
+    "address": "0xf9fc8681bec2c9f35d0dd2461d035e62d643659b",
+    "desc": "As an Incentive mechanism for the Socialized Operation of e-commerce.",
+    "icon": "4465a9e9348954fc48dc65c5e571348fef9596d9.png",
+    "totalSupply": "7500000000000000000000000000"
+  },
+  {
+    "name": "Yeet Coin",
+    "symbol": "YEET",
+    "decimals": 18,
+    "address": "0xae4c53b120cba91a44832f875107cbc8fbee185c",
+    "desc": "Alpaca memes",
+    "icon": "2e434b45fdbf3ea1d2676d3270ad8877221aefd1.png",
+    "totalSupply": "69000000000000000000000000"
+  },
+  {
+    "name": "HackenAI",
+    "symbol": "HAI",
+    "decimals": 8,
+    "address": "0xacc280010b2ee0efc770bce34774376656d8ce14",
+    "desc": "HAI can be used to power most activities within the HackenAI application and to acquire various cybersecurity services",
+    "icon": "bbe48eedf5b23a5e268672276ba889eea5d00256.png",
+    "totalSupply": "95822021762856923"
+  },
+  {
+    "name": "Madini",
+    "symbol": "MDN",
+    "decimals": 18,
+    "address": "0x1b44a9718e12031530604137f854160759677192",
+    "desc": "MDN is the Madini VeChain Vip180 token that is used to carry value or 'smart money' from Madini smart contracts. In other words, transactions on decentralized applications occurring on Madini VeChain's blockchain will use MDN. It is available for investing by the general public. MDN token is the Madini utility token in our Ecosystem since it is linked to the Madini Minerals Marketplace, to the Madini VeChain Wallet - Android APP - and other Madini VeChain dApps.",
+    "icon": "4bad919e2ba460940b3ac5f5a94394964303bb86.png",
+    "totalSupply": "100000000000000000000000000",
+    "website": "https://www.madiniafricainvest.com/",
+    "whitePaper": "https://www.madiniafricainvest.com/whitepaper/MadiniWhitepaper112020.pdf",
+    "links": {
+      "github": "https://github.com/Bluegate-BS"
+    }
+  },
+  {
+    "name": "VEED",
+    "symbol": "VEED",
+    "decimals": 18,
+    "address": "0x67fd63f6068962937ec81ab3ae3bf9871e524fc9",
+    "desc": "VEED is the ecosystem utility and governance token of VIMworld, a Smart NFT project built on VeChainThor focused on VIM collectibles. The VEED token is used for a variety of utilities within the VIMworld Ecosystem, including VIM feeding, trading, adoption, farming, rewards, governance, and more.",
+    "icon": "1d9b0e0c19a85eb860fd2f1d244026f2e2c8f799.png",
+    "totalSupply": "99999999984199954602873174148",
+    "website": "https://www.vimworld.com/",
+    "whitePaper": "https://www.vimworld.com/ppp/english.pdf",
+    "links": {
+      "twitter": "https://twitter.com/VIMworldGlobal",
+      "telegram": "https://t.me/VIMworld",
+      "facebook": "https://www.facebook.com/VIMworldOfficial/",
+      "medium": "https://vimworld.medium.com/"
+    }
+  },
+  {
+    "name": "VPunks Token",
+    "symbol": "VPU",
+    "decimals": 18,
+    "address": "0xb0821559723db89e0bd14fee81e13a3aae007e65",
+    "desc": "VPU is the ecosystem utility and governance token of VPunks NFT & VPunks marketplace",
+    "icon": "333ad4a9c829a98ec78e4e687bb48a665be314eb.png",
+    "totalSupply": "121000000000000000000000000",
+    "website": "https://vpunks.com/",
+    "links": {
+      "twitter": "https://twitter.com/vpunksofficial",
+      "telegram": "https://t.me/vpunks",
+      "github": "https://github.com/vefam-labs/vpunks"
+    }
+  },
+  {
+    "name": "Mad Viking Games",
+    "symbol": "MVG",
+    "decimals": 18,
+    "address": "0x99763494a7b545f983ee9fe02a3b5441c7ef1396",
+    "desc": "MVG is the ecosystem utility token of the MVG platform, games and marketplace",
+    "icon": "aa1a4cae47690ccd8a848e2bed5560606d90dd98.png",
+    "totalSupply": "100000000000000000000000000000",
+    "website": "https://madvikinggames.com/",
+    "whitePaper": "https://www.madvikinggames.com/Litepaper/",
+    "links": {
+      "twitter": "https://twitter.com/MadVikingGames",
+      "telegram": "https://t.me/MadVikingGames",
+      "medium": "https://medium.com/@MadVikingGames"
+    }
+  },
+  {
+    "name": "WorldOfV",
+    "symbol": "WoV",
+    "decimals": 18,
+    "address": "0x170f4ba8e7acf6510f55db26047c83d13498af8a",
+    "desc": "WoV is the ecosystem utility and governance token of WorldOfV.",
+    "icon": "86d852d5b2bacaa182139c0ca08bc916a63eee24.png",
+    "totalSupply": "190194902602107022082795969",
+    "website": "https://www.worldofv.art/",
+    "whitePaper": "https://medium.com/@WorldofV/world-of-v-tokenomics-the-beginning-of-our-journey-together-d428907c22af",
+    "links": {
+      "twitter": "https://twitter.com/WorldOfV2",
+      "telegram": "https://t.me/worldofvofficial",
+      "medium": "https://medium.com/@WorldofV"
+    }
+  },
+  {
+    "name": "GEMS",
+    "symbol": "GEMS",
+    "decimals": 18,
+    "address": "0x28c61940bdcf5a67158d00657e8c3989e112eb38",
+    "desc": "The governance token of the Mad Viking Games platform and marketplace",
+    "icon": "a4c5cf35736eb5a6e8cd974b9a9a72d65355451c.png",
+    "totalSupply": "100000000000000000000000000000",
+    "website": "https://www.madvikinggames.com/",
+    "whitePaper": "https://www.madvikinggames.com/Litepaper",
+    "links": {
+      "twitter": "https://twitter.com/MadVikingGames",
+      "telegram": "https://t.me/MadVikingGames",
+      "medium": "https://medium.com/@MadVikingGames"
+    }
+  },
+  {
+    "name": "Vexchange",
+    "symbol": "VEX",
+    "decimals": 18,
+    "address": "0x0bd802635eb9ceb3fcbe60470d2857b86841aab6",
+    "desc": "Governance Token for the Vexchange Ecosystem",
+    "icon": "e05418659d6e0cb7f290669e43b60b617379ba57.png",
+    "totalSupply": "100000000000000000000000000",
+    "website": "https://vexchange.io/",
+    "links": {
+      "twitter": "https://twitter.com/VexchangeIO",
+      "telegram": "https://t.me/vexchange",
+      "medium": "https://medium.com/@vexchange",
+      "github": "https://github.com/vexchange/"
+    }
+  },
+  {
+    "name": "VeUSD",
+    "symbol": "VEUSD",
+    "decimals": 6,
+    "address": "0x4e17357053da4b473e2daa2c65c2c949545724b8",
+    "desc": "US Dollar-pegged stablecoin fully backed 1-to-1 and redeemable for USD held in a trust account managed by Prime Trust and powered by Stably",
+    "icon": "6264aec1716bb13dc8f0d4044d3e986678c553f0.png",
+    "totalSupply": "779101095991"
+  },
+  {
+    "name": "Veiled VET",
+    "symbol": "VVET",
+    "decimals": 18,
+    "address": "0x45429a2255e7248e57fce99e7239aed3f84b7a53",
+    "desc": "Wrapper VET VIP-180 token (VIP-180) that 1:1 pegs VET. Audit report provided by PeckShield.",
+    "icon": "b58186aeabfc3dabd3938f2b3a795623c8520d46.png",
+    "totalSupply": "10592634616382836868480992",
+    "links": {
+      "github": "https://github.com/VeChainDEXCode/vvet"
+    }
+  },
+  {
+    "name": "Dohrnii",
+    "symbol": "DHN",
+    "decimals": 18,
+    "address": "0x8e57aadf0992afcc41f7843656c6c7129f738f7b",
+    "desc": "Token for the Dohrnii Academy and Invest Ecosystem",
+    "icon": "22c07541c977b271b54e74c7d5c2f55f85cabebf.png",
+    "totalSupply": "372000000000000000000000000",
+    "website": "https://dohrnii.io/",
+    "whitePaper": "https://dohrnii.io/static/media/Whitepaper.47f95e633c6954913949.pdf",
+    "links": {
+      "twitter": "https://twitter.com/Dohrnii_io",
+      "telegram": "https://t.me/Dohrnii_Community",
+      "facebook": "https://www.facebook.com/dohrnii.io/",
+      "github": "https://github.com/Dohrnii-Foundation"
+    }
+  },
+  {
+    "name": "UNION",
+    "symbol": "UNION",
+    "decimals": 18,
+    "address": "0x34109fc2a649965eecd953d31802c67dcc183d57",
+    "desc": "Utility token for NoNerdsInc",
+    "icon": "df3b96461583b07ec89df7f3cfdec0ecfe45af8d.png",
+    "totalSupply": "13168505000000000000000000",
+    "website": "https://www.nonerdsinc.com/",
+    "whitePaper": "https://nonerdsinc.com/roadmap",
+    "links": {
+      "twitter": "https://twitter.com/NoNerdsInc"
+    }
+  },
+  {
+    "name": "VeStacks",
+    "symbol": "VST",
+    "decimals": 18,
+    "address": "0xb9c146507b77500a5cedfcf468da57ba46143e06",
+    "desc": "The main currency used in Thugs Paradise. VeThugs P2E Game. Will later be integrated in BlackVMarket & Used for Future related BlackVeMarket Mints",
+    "icon": "2f5919e522157770ab6432962d998e9fbe47e9a6.png",
+    "totalSupply": "1500000000000000000000000000",
+    "website": "https://www.VeThugs.com/",
+    "links": {
+      "twitter": "https://twitter.com/VeThugs",
+      "github": "https://github.com/Murtagh300"
+    }
+  },
+  {
+    "name": "Paper Token",
+    "symbol": "PPR",
+    "decimals": 18,
+    "address": "0x2f10726b240d7efb08671f4d5f0a442db6f29416",
+    "desc": "Utility token for the NFT Paper Project to interact with burning smart contracts",
+    "icon": "68bbb7c1b2aa8f1a0a4b0b017686e2fd454cc13e.png",
+    "totalSupply": "420000000000000000000000"
+  },
+  {
+    "name": "Dragon Coin",
+    "symbol": "DRAGON",
+    "decimals": 18,
+    "address": "0x107a0b0faeb58c1fdef97f37f50e319833ad1b94",
+    "desc": "The main currency used For Staking and evolving your Dragon egg. Dragons of Singapura. Will also be used for future nft drops within Singapura",
+    "icon": "a4221ae03a23273a62b9d174596528875a189287.png",
+    "totalSupply": "4790986999999999992290986",
+    "website": "https://www.DragonsofSingapura.com/",
+    "links": {
+      "twitter": "https://twitter.com/Dragonsingapura",
+      "github": "https://github.com/Murtagh300"
+    }
+  },
+  {
+    "name": "VeSea Token",
+    "symbol": "VSEA",
+    "decimals": 18,
+    "address": "0x23368c20c16f64ecbb30164a08666867be22f216",
+    "desc": "The fuel powering VeSea's NFT Utility Ecosystem, designed to be destroyed by VeSea-deployed smartcontracts providing usage to various VIP-181 tokens",
+    "icon": "47eed6b5ea59d255140603b2ddb41ff2fc64d214.png",
+    "totalSupply": "1187216214464747610211474"
+  },
+  {
+    "name": "BananaCoin",
+    "symbol": "BANANA",
+    "decimals": 18,
+    "address": "0xf01069227b814f425bad4ba70ca30580f2297ae8",
+    "desc": "MemeCoin, GG Gangster Gorillas no roadmap, no utility Lots of potential.",
+    "icon": "b74678c3e1d0cbdd76c81579f6d2b551c4704811.png",
+    "totalSupply": "500000000000000000000000",
+    "links": {
+      "twitter": "https://twitter.com/GangGorillaz/"
+    }
+  },
+  {
+    "name": "GOLD Coin",
+    "symbol": "GOLD",
+    "decimals": 18,
+    "address": "0xff3bc357600885aaa97506ea6e24fb21aba88fbd",
+    "desc": "The Utility Token of the Llama Digital Studios Ecosystem, the Gold Rush has started!",
+    "icon": "61ce8242dea907b7d6bf3aeadb23b5de04f01670.png",
+    "totalSupply": "15000000000000000000000000",
+    "website": "https://theinkaempirenft.com/",
+    "links": {
+      "twitter": "https://twitter.com/INKAEmpireNFT"
+    }
+  },
+  {
+    "name": "LEGACY TOKEN",
+    "symbol": "LGCT",
+    "decimals": 18,
+    "address": "0xe5bb68318120828fd1159bf73d0e3a823043efc8",
+    "desc": "The Legacy Network token (LGCT) is a multichain utility and payment token which allows its holders to get the best out of the Legacy Network ecosystem. LGCT is available on VeChain, Ethereum, Binance smart chain and Polygon.",
+    "icon": "5aa5de380d05183de6fc11fa3cdde8f46fbe5b09.png",
+    "totalSupply": "720000000000000000000000000",
+    "website": "https://www.legacynetwork.io",
+    "whitePaper": "https://www.legacynetwork.io/pdf/WP-Eng.pdf",
+    "links": {
+      "twitter": "https://twitter.com/LegacyNetworkio",
+      "telegram": "https://t.me/LegacyNetworkAnnouncements",
+      "github": "https://github.com/LegacyNetworkAG"
+    }
+  },
+  {
+    "name": "VFoxToken",
+    "symbol": "VFA",
+    "decimals": 18,
+    "address": "0xa4f95b1f1c9f4cf984b0a003c4303e8ea86302f6",
+    "desc": "Utility token of the VFox Alliance ecosystem",
+    "icon": "3265906190851c0d19bf6057325902adafecd076.png",
+    "totalSupply": "9125808336081380474584715",
+    "website": "https://vfox-alliance.com/",
+    "whitePaper": "https://medium.com/@vfox.alphice/tokenomics-vfa-f3ab4c4f0cf7",
+    "links": {
+      "twitter": "https://twitter.com/VFoxAllianceNFT"
+    }
+  },
+  {
+    "name": "FreeCoffeeWithSunny",
+    "symbol": "FCWS",
+    "decimals": 0,
+    "address": "0xd5bd1b64cc9dafbfd58abd1d24a51f745ba64712",
+    "desc": "1 token for a cup of coffee from Sunny",
+    "icon": "2db98bc62a496dda70a3eb98c381499439110c20.png",
+    "totalSupply": "200",
+    "links": {
+      "twitter": "https://twitter.com/sunshinelu24"
+    }
+  },
+  {
+    "name": "MyVeChain",
+    "symbol": "MVC",
+    "decimals": 18,
+    "address": "0x02de9e580b51907a471d78ccfb2e8abe4c6b7515",
+    "desc": "Utility token for the myvechain.com community website",
+    "icon": "5558257825ad4da50f7da2eb3d34c1cdb8b5a8f4.png",
+    "totalSupply": "111111111000000000000000000",
+    "website": "https://www.myvechain.com/",
+    "links": {
+      "twitter": "https://twitter.com/myvechain"
+    }
+  },
+  {
+    "name": "MVA Token",
+    "symbol": "MVA",
+    "decimals": 18,
+    "address": "0xc3fd50a056dc4025875fa164ced1524c93053f29",
+    "desc": "MVA is a utility and governance token for the MadⓥApes Ecosystem",
+    "icon": "97d999107b6e9f5dcb1422bf5118758dbc9e354f.png",
+    "totalSupply": "9944711143086426387701017",
+    "website": "https://mvanft.io/",
+    "links": {
+      "twitter": "https://twitter.com/madvapesnft"
+    }
+  },
+  {
+    "name": "Squirtle Squad",
+    "symbol": "SQUAD",
+    "decimals": 18,
+    "address": "0xb27a1fb87935b85cdaa2e16468247278c74c5ec7",
+    "desc": "VeChains finest Meme Coin, Powering Turtle Labs a DeFi Platform.",
+    "icon": "100525d2a1fccf66732e0b518d10be34ffd20364.png",
+    "totalSupply": "72714516834999999999912000000",
+    "links": {
+      "twitter": "https://x.com/SquadVeChain"
+    }
+  },
+  {
+    "name": "ThreeDAbleToken",
+    "symbol": "3DT",
+    "decimals": 18,
+    "address": "0x8fcddbb322b18d8bdaec9243e9f4c6eb8901e566",
+    "desc": "Utility token for 3DAbles platform",
+    "icon": "07f26d41581c62729b26ac2cb0a679a18b08f43e.png",
+    "totalSupply": "3264000000000000010000",
+    "website": "https://3dables.smuzzies.com/",
+    "links": {
+      "twitter": "https://twitter.com/Smuzzies_NFT"
+    }
+  },
+  {
+    "name": "LION",
+    "symbol": "LION",
+    "decimals": 18,
+    "address": "0x99ae6b435d37995befb749670c1fb7c377fbb6d1",
+    "desc": "$LION is a meme token that symbolises strength, courage, and justice in the world of crypto currency",
+    "icon": "3c64f156e91631f2d2e5d5f7848e8c3828d55448.png",
+    "totalSupply": "2000000000000000000000000000",
+    "website": "https://lion.baby/",
+    "whitePaper": "https://lion.baby/",
+    "links": {
+      "twitter": "https://twitter.com/lionbabycrypto",
+      "telegram": "https://t.me/lionbabycrypto",
+      "github": "https://github.com/lionbabycrypto"
+    }
+  },
+  {
+    "name": "Sh*tCoin",
+    "symbol": "SHT",
+    "decimals": 18,
+    "address": "0x9af004570f2a301d99f2ce4554e564951ee48e3c",
+    "desc": "meh",
+    "icon": "0e4095de9aad75a7dc961c7ddda6ee243366b683.png",
+    "totalSupply": "2000000000000000002000000000",
+    "links": {
+      "twitter": "https://twitter.com/TheSHTCoin",
+      "telegram": "https://t.me/shtstinks"
+    }
+  },
+  {
+    "name": "Black Ve Coin",
+    "symbol": "BVC",
+    "decimals": 18,
+    "address": "0x7ae288b7224ad8740b2d4fc2b2c8a2392caea3c6",
+    "desc": "The fuel powering BlackVeMarket NFT Utility Ecosystem",
+    "icon": "da05a81e4da6c2613cf7e19a1b14fd2c8f780ebe.png",
+    "totalSupply": "1000000000000000000000000000",
+    "website": "https://www.blackvemarket.com/",
+    "links": {
+      "twitter": "https://twitter.com/BlackVeMarket",
+      "github": "https://github.com/Murtagh300"
+    }
+  },
+  {
+    "name": "Vyvo US Dollar",
+    "symbol": "USDV",
+    "decimals": 6,
+    "address": "0x094042f9719cd6736fa3bd45b605b1b2a23abdec",
+    "desc": "A fiat-backed stablecoin redeemable 1-to-1 for U.S Dollar held in trust accounts.",
+    "icon": "e04cb40086ff6b87362986e627ac5d9bd770f16c.png",
+    "totalSupply": "26500000",
+    "website": "https://www.odee.com/ ",
+    "links": {
+      "twitter": "https://twitter.com/VyvoSmartChain"
+    }
+  },
+  {
+    "name": "VSC",
+    "symbol": "VSC",
+    "decimals": 18,
+    "address": "0x65c542ad413dd406d7ae5e47f61fbda027ce7983",
+    "desc": "VSC is a blockchain built to solve the issue of health data collection, validation, distribution, and ownership. We serve the IoT. Wearable technology, health data, and big data industry.",
+    "icon": "4609859a93d6e0abd7e472928f5752e7c7c1adb6.png",
+    "totalSupply": "5000000000000000000",
+    "website": "https://www.vyvo.org/",
+    "whitePaper": "https://www.vyvo.org/VyvoSmartChainWhitepaper.pdf",
+    "links": {
+      "twitter": "https://twitter.com/VyvoSmartChain",
+      "medium": "https://medium.com/@VyvoSmartChain"
+    }
+  },
+  {
+    "name": "Rainbow",
+    "symbol": "Rain",
+    "decimals": 18,
+    "address": "0x3cb62f48dbdc4f7627f37f027811565d292a1001",
+    "desc": "Rain is a rain.vet token.",
+    "icon": "9f439f4e0075e9dbcc98ffe3f0b45e0503fe58bd.png",
+    "totalSupply": "8000000000000000000000000000",
+    "website": "https://www.rain.vet/",
+    "links": {
+      "twitter": "https://twitter.com/RainDotVet"
+    }
+  },
+  {
+    "name": "MILK",
+    "symbol": "MILK",
+    "decimals": 18,
+    "address": "0x64a8dea68772d478240dd6d3080a8e7f288a720f",
+    "desc": "Utility token of the GOATZ NFT project",
+    "icon": "af9add60ca7b837aa5eac05377a3c9076cbad86a.png",
+    "totalSupply": "411000002000000000000000000"
+  },
+  {
+    "name": "PLUG",
+    "symbol": "PLG",
+    "decimals": 18,
+    "address": "0xb0d5b68a96fab5f3047f6de6f9377a460db7e528",
+    "desc": "Utility token for StonerPunksNFT community",
+    "icon": "716713ae7fa2f983d43b631d70459510d5a4f1b6.png",
+    "totalSupply": "10000000000000000000000000",
+    "website": "https://stonerpunksofficialnft.com/",
+    "links": {
+      "twitter": "https://twitter.com/StonerPunksNFT"
+    }
+  },
+  {
+    "name": "EXO Token",
+    "symbol": "EXO",
+    "decimals": 18,
+    "address": "0x47921404147046177b8038720ac2d0b2776ee5bf",
+    "desc": "ExoDust, commonly referred to as $EXO, is a transdimensional concentrate mined from beyond the event horizon of supermassive black holes. It is compressed into $EXO Tokens and can be harnessed to provide clean and infinitely renewable energy that will have utility in the game. The $EXO token will be essential for all participants of the ExoWorlds ecosystem. It brings four core utilities: Special Access to Game Features, Asset Purchasing, Voting, and Staking.",
+    "icon": "8245ead001a34cb68b0596fbdf4b7b8ef3549447.png",
+    "totalSupply": "72704503222417492602699",
+    "website": "https://www.exoworlds.io",
+    "whitePaper": "https://exoworlds.gitbook.io/exoworlds-whitepaper/",
+    "links": {
+      "twitter": "https://twitter.com/ExoWorldsNFT",
+      "medium": "https://medium.com/@ExoWorlds"
+    }
+  },
+  {
+    "name": "Uno",
+    "symbol": "UNO",
+    "decimals": 18,
+    "address": "0xab644843eeab886a5ed3ea22066c6ee5190cfb81",
+    "desc": "Uno is a rain.vet token.",
+    "icon": "1cdb45676eef9080e2f1ad1912296d07f27a0dfc.png",
+    "totalSupply": "1000000000000000000",
+    "website": "https://www.rain.vet/",
+    "links": {
+      "twitter": "https://twitter.com/RainDotVet"
+    }
+  },
+  {
+    "name": "GCRED Token",
+    "symbol": "GCRED",
+    "decimals": 18,
+    "address": "0x9fbf641fd303bfb294fa9d5393962806644825b4",
+    "desc": "The Galactic Credit is the main currency of the ExoWorlds metaverse. Whether buying, upgrading, forging or enchanting, users will need GCRED if they want to unlock the full potential of ExoWorlds.",
+    "icon": "98186349ee2d2850786c305f64b1053aa849ca1d.png",
+    "totalSupply": "64949063676090000000000",
+    "website": "https://www.exoworlds.io",
+    "whitePaper": "https://exoworlds.gitbook.io/exoworlds-whitepaper/",
+    "links": {
+      "twitter": "https://twitter.com/ExoWorldsNFT",
+      "medium": "https://medium.com/@ExoWorlds"
+    }
+  },
+  {
+    "name": "Vemecoin",
+    "symbol": "VEME",
+    "decimals": 0,
+    "address": "0x70a647c84ac1f492efd302e1af6d1ab8d20223a0",
+    "desc": "Vemecoin is a rain.vet token.",
+    "icon": "e04b77964066f2b62a7d50befe07edf7d0193d29.png",
+    "totalSupply": "1000000",
+    "website": "https://www.rain.vet/",
+    "links": {
+      "twitter": "https://twitter.com/RainDotVet"
+    }
+  },
+  {
+    "name": "BANGZ",
+    "symbol": "BANGZ",
+    "decimals": 18,
+    "address": "0x6e0b217380b45fd9992bafa91c08a92455ec647a",
+    "desc": "Bangz token for Bangzboard stacking, rewards and BangzMarket",
+    "icon": "2b2ce9d01f9819500698e25d438db7ff691b95a1.png",
+    "totalSupply": "69069069069000000000000000000",
+    "links": {
+      "twitter": "https://twitter.com/BangzBoard",
+      "github": "https://github.com/JohanT-BadsM"
+    }
+  },
+  {
+    "name": "Amphi",
+    "symbol": "APHI",
+    "decimals": 8,
+    "address": "0x8b8ada6679963e39cb8edd9198decc367790187d",
+    "desc": "Amphi Collective Token",
+    "icon": "9f77b6cc7838c4625e5fcae8617f09d3d30e635d.png",
+    "totalSupply": "22000000",
+    "website": "https://www.amphicollective.com/",
+    "links": {
+      "twitter": "https://twitter.com/amphicollective"
+    }
+  },
+  {
+    "name": "Cup of Joe",
+    "symbol": "COJ",
+    "decimals": 18,
+    "address": "0x2c28d59e1424f878cb655d74c297fcb685c22be6",
+    "desc": "AI Generated Memecoin | Coffee Connoisseur Contributing to an Eco-Friendly Coffee ☕️Environment Worldwide 🌎 +Send / Receive a Cup of Joe ☕️ Worldwide 🌎",
+    "icon": "16a45897fd449a8a8e401809ac85ad4d0953a0cf.png",
+    "totalSupply": "1000000000000000000000000000",
+    "links": {
+      "twitter": "https://twitter.com/cojcoin"
+    }
+  },
+  {
+    "name": "PEPE",
+    "symbol": "PEPE",
+    "decimals": 18,
+    "address": "0x4a4bd03b67d6aae921b4bb54835079e91d81a3a9",
+    "desc": "Represents the VeChain PEPE meme token",
+    "icon": "cf9d2fdbbcaff8e290c60f95525cbc8559162c24.png",
+    "totalSupply": "69000000000000000000000000000"
+  },
+  {
+    "name": "VienerDog",
+    "symbol": "VDOG",
+    "decimals": 9,
+    "address": "0x6924252d44bb2f7592285d3014b1eb291c044f03",
+    "desc": "Official dog of vechain",
+    "icon": "9461b3cc4ad13e35ff0c43e383ed5e3caf531478.png",
+    "totalSupply": "350000000000000000",
+    "website": "https://github.com/vienerdog/whitepaper",
+    "whitePaper": "https://github.com/vienerdog/whitepaper",
+    "links": {
+      "github": "https://github.com/vienerdog"
+    }
+  },
+  {
+    "name": "BigVEnergy",
+    "symbol": "BIGV",
+    "decimals": 18,
+    "address": "0x6a4aa92f8c45242be02c54b433c63b5f525ec658",
+    "desc": "Spreading Big V Energy to VeFam",
+    "icon": "0c150904b6ada9aeebb8a6bfc3820adc56ae50f3.png",
+    "totalSupply": "8168008135000000000000000000",
+    "website": "https://github.com/BigVEnergy",
+    "whitePaper": "https://github.com/BigVEnergy/Whitepaper",
+    "links": {
+      "github": "https://github.com/BigVEnergy/"
+    }
+  },
+  {
+    "name": "Slayers Guild",
+    "symbol": "SL4Y",
+    "decimals": 18,
+    "address": "0x4b85757bcf693f742003f2d5529cdc1672392f16",
+    "desc": "Project token for Slayers Guild",
+    "icon": "d985eb0c32ea87b57afc0f751647cfcb483fc2c3.png",
+    "totalSupply": "1341000000000000000000",
+    "whitePaper": "https://docs.slayersguild.io",
+    "links": {
+      "twitter": "https://twitter.com/vechainslayers"
+    }
+  },
+  {
+    "name": "cool",
+    "symbol": "cool",
+    "decimals": 8,
+    "address": "0x2f2220139e46bcc98273ecca2ded7bf56373b6cf",
+    "desc": "Community Fun Coin - Stay Cool With Cool Coin",
+    "icon": "11d686c28e6ef16bb5319c512a919e91b9c28029.png",
+    "totalSupply": "10000000000000000",
+    "website": "https://www.twitter.com/yothatscooldeux",
+    "links": {
+      "twitter": "https://twitter.com/yothatscooldeux"
+    }
+  },
+  {
+    "name": "B3TR",
+    "symbol": "B3TR",
+    "decimals": 18,
+    "address": "0x5ef79995fe8a89e0812330e4378eb2660cede699",
+    "desc": "B3TR is the incentive and value token of the VeBetterDAO ecosystem. It serves as the foundation for VeBetterDAO’s sustainability-focused incentive model, rewarding active participation, innovation, and contributions that drive positive environmental, social and economic impact.\n\nB3TR supports DAO treasury management, acts as the value carrier for VeBetter applications, and backs VOT3 tokens 1:1, which are required for VeBetterDAO governance and decision-making.\n\nThe total supply of 1 billion B3TR is fixed, with a weekly issuance schedule distributed over 12 years, ensuring a sustainable and transparent reward structure that aligns long-term ecosystem growth with real-world impact.",
+    "icon": "5a9eb5e11751a649ca00298f3237c4624712af75.png",
+    "totalSupply": "372887808068444160000000000",
+    "website": "https://vebetter.com/",
+    "whitePaper": "https://files.vebetter.com/vebetterdaocontainer/VeBetter_Whitepaper_v2-OCR.pdf",
+    "links": {
+      "twitter": "https://x.com/vechainofficial",
+      "telegram": "https://t.me/vechainandfriends",
+      "medium": "https://medium.com/@vechainofficial",
+      "github": "https://github.com/vechain"
+    }
+  },
+  {
+    "name": "VOT3",
+    "symbol": "VOT3",
+    "decimals": 18,
+    "address": "0x76ca782b59c74d088c7d2cce2f211bc00836c602",
+    "desc": "Tokens representing voting power in the VeBetterDAO",
+    "icon": "dcc6e7f09932a389a536fe74107cd73af445dd65.png",
+    "totalSupply": "239347136838144437008414547"
+  },
+  {
+    "name": "Hawk Tuah",
+    "symbol": "TUAH",
+    "decimals": 18,
+    "address": "0x867bca2f3f187bb7bfb900ebcd3155746537a9a9",
+    "desc": "Hawk TUAH is a Meme Token Launched During the Hawk Tuah Meme Hype, LP Tokens are Burned. Just a token to have Fun with and onboard new users to the VeChain Blockchain.",
+    "icon": "5972bf309346ac3d06a84bf5e9a98c45270a2db4.png",
+    "totalSupply": "100000000000000000000000000",
+    "links": {
+      "twitter": "https://twitter.com/TUAHonVeChain",
+      "telegram": "https://t.me/+q5jsJ10dSHI1ZGU0"
+    }
+  },
+  {
+    "name": "Ratverse Coin",
+    "symbol": "RATV",
+    "decimals": 18,
+    "address": "0x27404060ea6939ff9e3598a3d0409ff11c9c6247",
+    "desc": "Ratverse Coin, $RATV is crafted with a total supply of 100,000,000 tokens, making sure there’s enough cheese to go around. Our token distribution is as carefully planned as a rat's heist for the finest cheese.",
+    "icon": "fdfac0a65ea44ed9a03b4f5dda8ea2c76561799e.png",
+    "totalSupply": "100000000000000000000000000",
+    "links": {
+      "twitter": "https://twitter.com/RatverseIo"
+    }
+  },
+  {
+    "name": "veB3TR",
+    "symbol": "veB3TR",
+    "decimals": 18,
+    "address": "0x420dfe6b7bc605ce61e9839c8c0e745870a6cde0",
+    "desc": "Earns enhanced weekly rewards and can be redeemed for 1 B3TR on veDelegate.vet.",
+    "icon": "1c641b86096d56bf13d49f38388accd6db8b8b2e.png",
+    "totalSupply": "2408725074764193304809573",
+    "website": "https://veDelegate.vet/",
+    "links": {
+      "twitter": "https://x.com/vedelegate",
+      "medium": "https://medium.com/@vedelegate"
+    }
+  },
+  {
+    "name": "LLAMACOIN",
+    "symbol": "LLAMACOIN",
+    "decimals": 18,
+    "address": "0x8ce14e9906c64f8e17fa27eb51d3db1df3da2c16",
+    "desc": "Llamacoin is the native cryptocurrency of the Llama Miners United ecosystem, facilitating transactions, staking, and governance within the community-driven Bitcoin mining network.",
+    "icon": "6230ed62db119efc6de054f9876d11eaf1c7d32d.png",
+    "totalSupply": "21000000000000000000000000",
+    "website": "https://www.llmu.tech/",
+    "whitePaper": "https://www.llmu.tech/Whitepaper"
+  },
+  {
+    "name": "Sassafras",
+    "symbol": "SASS",
+    "decimals": 18,
+    "address": "0x84b0caf6436aace4e21d10f126963fdd53ac31ea",
+    "desc": "Sagaz Utlity Token for our dApp Activities and token gameifaction",
+    "icon": "8f5ebc0759fb6b4465e53ca819776d7eab762306.png",
+    "totalSupply": "500000000000000000000000000",
+    "website": "https://thesagaz.com/",
+    "links": {
+      "twitter": "https://twitter.com/VeSagaz"
+    }
+  },
+  {
+    "name": "NUTS",
+    "symbol": "NUTS",
+    "decimals": 18,
+    "address": "0x6bd26f0264d8dfae7366c976180bad3d04c23937",
+    "desc": "The official utility token of Psychobeasts.",
+    "icon": "224beb94ff2071e6c8492e5fdc22bde36ac8ae52.png",
+    "totalSupply": "550000000000000000000000000"
+  },
+  {
+    "name": "CarbonYears",
+    "symbol": "CY",
+    "decimals": 18,
+    "address": "0xaac40a6e1adcf2acf172019e118b4278dd935760",
+    "desc": "Represents 1 ton of CO2 offset for 1 year. Non-tradable and non-transferable. Each token is linked to an offset certificate and can only be minted by the Pause Your Carbon smart contract.",
+    "icon": "2f5dbd5e3b40580b2f8b3790a78b4e5c403ff0eb.png",
+    "totalSupply": "205408079376830537887050",
+    "website": "https://pauseyourcarbon.com/",
+    "links": {
+      "twitter": "https://x.com/the_Carboneers/"
+    }
+  },
+  {
+    "name": "Chuwi",
+    "symbol": "CHUWI",
+    "decimals": 18,
+    "address": "0xd5704b934a088dcacafc2d5d2784c29bd4cc4568",
+    "desc": "A secondary token for the Golden Empire Eco System, Fueling The gamification of the OG NFT Collection!",
+    "icon": "17f37041c1c22bfb8c969c6deefa8e3d91cd79e9.png",
+    "totalSupply": "200000000000000000000000000"
+  },
+  {
+    "name": "Better VET",
+    "symbol": "BVET",
+    "decimals": 18,
+    "address": "0xf9b02b47694fd635a413f16dc7b38af06cc16fe5",
+    "desc": "Wrapper VET VIP-180 token (VIP-180) that 1:1 pegs VET",
+    "icon": "1b51232270c6f7b34b4ce9dd1001df0197e56e24.png",
+    "totalSupply": "16758772003388359300310225",
+    "website": "https://www.betterswap.io/",
+    "links": {
+      "twitter": "https://x.com/BetterSwap_io"
+    }
+  },
+  {
+    "name": "Dream",
+    "symbol": "DREAM",
+    "decimals": 18,
+    "address": "0xc952e8decdb9bbde9b4d7574c1eb82ea99f034fc",
+    "desc": "DREAM token, Your Gateway into Dreamchicks!",
+    "icon": "e7ee3b18bbcb07dc3b5544a4c3affa45efde7bbe.png",
+    "totalSupply": "30630000000000000000000000"
+  },
+  {
+    "name": "Glo Dollar",
+    "symbol": "USDGLO",
+    "decimals": 18,
+    "address": "0x29c630cce4ddb23900f5fe66ab55e488c15b9f5e",
+    "desc": "Glo Dollar is the stablecoin that funds public goods and charities. Unlike other stablecoins, we donate all our profits. This unlocks up to $7b in funding to make crypto and the world a better place.",
+    "icon": "6d55bdde89f83265f94ec07b491573334625cdc6.png",
+    "totalSupply": "11068259211000000000000",
+    "website": "https://www.glodollar.org",
+    "links": {
+      "twitter": "https://x.com/glodollar",
+      "github": "https://github.com/Glo-Foundation"
+    }
+  },
+  {
+    "name": "vet.domains",
+    "symbol": "VNS",
+    "decimals": 18,
+    "address": "0x3b7c0e866b5c18e8196edbb95b15e626fb3ba32d",
+    "desc": "vet.domains governance and utility token",
+    "icon": "d8aa8683ac786a791391a7e05fe6b7ce6d9019ea.png",
+    "totalSupply": "1266563000000000000000000",
+    "website": "https://vet.domains",
+    "links": {
+      "twitter": "https://x.com/vetDomains"
+    }
+  },
+  {
+    "name": "SOL@vechain",
+    "symbol": "SOL",
+    "decimals": 9,
+    "address": "0x1d828b239749c023aa561d442744d0e83f3fab66",
+    "desc": "Bridged SOL from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "4f0d1666d00240aaf50da65217c27ee26cfaafca.png",
+    "totalSupply": "909457876",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "ETH@vechain",
+    "symbol": "ETH",
+    "decimals": 18,
+    "address": "0x2076382cfee16ffc8155b59ef1836ad36b8a1df4",
+    "desc": "Bridged ETH from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "f21d01e658696753370cf19b3f9c06719fc02363.png",
+    "totalSupply": "86912934620516098",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "BTC@vechain",
+    "symbol": "BTC",
+    "decimals": 8,
+    "address": "0x752e4e77d8d3a111f931edcd35cee944adc36cc5",
+    "desc": "Bridged BTC from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "a003ed98565684de189b85ab5ae54abb26952633.png",
+    "totalSupply": "545568",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "USDT@vechain",
+    "symbol": "USDT",
+    "decimals": 6,
+    "address": "0x88b08f4eb5c87e320780a253cd1baa387d04bfcc",
+    "desc": "Bridged USDT from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "f12b8449e61f62f2bcc4847a911dfb6b206a4970.png",
+    "totalSupply": "6798472291",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "USDC@vechain",
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0xc0c789a13a69859d3ae7bdb3fe4fa1625d20fd65",
+    "desc": "Bridged USDC from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "0dc5e9031298774f5a0583b3c7bca9f00ab7cdf9.png",
+    "totalSupply": "17324226796",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "WAN@vechain",
+    "symbol": "WAN",
+    "decimals": 18,
+    "address": "0xdb01e0b2b8d8d8eea3eaf290bdb2ae05c317f2f1",
+    "desc": "Bridged WAN from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "d1f646308d536866bc88dc1a885c45aa3fbfca20.png",
+    "totalSupply": "2341185163876669969476",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "XRP@vechain",
+    "symbol": "XRP",
+    "decimals": 6,
+    "address": "0xe6826a142b6c4b6070015a633e6cccca36586185",
+    "desc": "Bridged XRP from Wanchain at https://bridge.wanchain.org/AssetBridge.",
+    "icon": "3ec6820986555b8f6debf95112c15b9c58bcdf42.png",
+    "totalSupply": "159603411",
+    "website": "https://bridge.wanchain.org/AssetBridge",
+    "links": {
+      "twitter": "https://x.com/wanchain_org",
+      "telegram": "https://t.me/WanchainCHAT"
+    },
+    "crossChainProvider": {
+      "name": "wanchain",
+      "url": "https://bridge.wanchain.org/AssetBridge"
+    }
+  },
+  {
+    "name": "MOB Token",
+    "symbol": "MOB",
+    "decimals": 18,
+    "address": "0x98beccbe48d6bef5bae95f83cb0b965a97073819",
+    "desc": "MOB is a utility and governance token powering the Mino Mob ecosystem.",
+    "icon": "3cafd92c6c0cb32c47e481dcc1954e084fbab29d.png",
+    "totalSupply": "5545000000000000000000",
+    "website": "https://minomob.com/",
+    "links": {
+      "twitter": "https://x.com/minomobNFT"
+    }
+  },
+  {
+    "name": "VENI",
+    "symbol": "VENI",
+    "decimals": 18,
+    "address": "0x0bf03b87b2bdd0b3907657115832ec6da5193305",
+    "desc": "VeChains most powerfull Meme Coin, Leveling up the warrios within the ecosystem.",
+    "icon": "1e3a0e440e24ae32ae9b4dd31b651c7ab1b218b5.png",
+    "totalSupply": "1000000000000000000000000000",
+    "links": {
+      "twitter": "https://x.com/vaiyansworld"
+    }
+  }
+]
