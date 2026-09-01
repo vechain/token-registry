@@ -1,0 +1,6 @@
+{
+  "name": "Juicy Vechain USDT",
+  "symbol": "jVechainUSDT",
+  "decimals": 6,
+  "desc": "Juicy Finance Receipt Token representing your deposited assets in JuicyFinance, providing proof of your supplied liquidity and accruing interest in real-time."
+}
