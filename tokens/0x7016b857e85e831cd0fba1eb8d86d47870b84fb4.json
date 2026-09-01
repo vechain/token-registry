@@ -1,0 +1,9 @@
+{
+  "name": "EcoTrade Token",
+  "symbol": "EcoT",
+  "decimals": 18,
+  "logo": "https://raw.githubusercontent.com/Cosmos369-art/EcoTrade/master/logo.png",
+  "website": "https://ecotrade.life",
+  "description": "EcoT is the utility token of the EcoTrade B2B platform, enabling verified trading of certified sustainable goods and services on VeChain. It supports green certification, carbon offsetting, and eco-supplier reputation systems.",
+  "github": "https://github.com/Cosmos369-art/EcoTrade"
+}
