@@ -1,0 +1,7 @@
+{
+    "name": "USDT@vechain",
+    "symbol": "USDT",
+    "decimals": 6,
+    "desc": "Bridged USDT from Wanchain at https://bridge-testnet.wanchain.org/AssetBridge."
+  }
+  

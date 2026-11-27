@@ -54,10 +54,16 @@ Forking a repository allows you to create your token details and send a pull req
       "slack":"https://example.slack.com/"
     },
   "whitePaper":"https://www.example.com/whitepaper/"
+  "crossChainProvider": {
+    name: "provider",
+    url: "https://bridge-testnet.provider.com/bridge"
+  }
 }
 
 ```   
 > Only Twitter / Telegram / Facebook / Medium / Github / Slack are supported
+
+> Cross Chain Provider name must be lower case and url must redirect to the token bridge page
 
 ### Making a Pull Request / Submit Your token
 After [Create a pull request](https://help.github.com/en/articles/creating-a-pull-request), your pull request will be reviewed by maintainers. Once the review is completed, your token will be merged into the base branch.

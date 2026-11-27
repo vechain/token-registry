@@ -2,5 +2,5 @@
   "name": "VeThor",
   "symbol": "VTHO",
   "decimals": 18,
-  "desc": "Represents the underlying cost of using VeChainThor"
+  "desc": "VTHO is the energy or “gas” token of the VeChainThor blockchain, used to pay for transactions, smart contracts and other types of network activity. It enables predictable and stable transaction costs, a key feature of VeChain’s dual-token system.\n\nVTHO is generated through the staking of VET and is distributed as rewards to validators and delegators who help secure the network. The VeChainThor blockchain employs a dynamic gas fee mechanism, where 100% of the VTHO used in transactions as the base fee is burned, balancing supply and demand to maintain sustainable network economics."
 }
